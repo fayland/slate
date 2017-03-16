@@ -1,189 +1,198 @@
 ---
-title: API Reference
+title: Bets API Specification v1.0
 
 language_tabs:
   - shell
-  - ruby
-  - python
-  - javascript
 
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href='/contactus'>Contact Us</a>
 
 includes:
-  - errors
+  - references
+  - changes
 
 search: true
 ---
 
 # Introduction
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+Bets API is a RESTful service for data on all sports. It is a *PAID* service with low price (started with $10 per month).
 
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
-
-This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+Please note that in order to access Bets API you must [contact us](/contactus).
 
 # Authentication
 
+You will get a *token* from our support. you can either pass it in header *X-API-TOKEN* or pass as token= in GET query.
+
 > To authorize, use this code:
 
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-```
-
 ```shell
-# With shell, you can just pass the correct header with each request
+# With shell, pass the correct header with each request
 curl "api_endpoint_here"
-  -H "Authorization: meowmeowmeow"
+  -H "X-API-TOKEN: YOUR-TOKEN"
 ```
 
-```javascript
-const kittn = require('kittn');
+> Make sure to replace `YOUR-TOKEN` with your token.
 
-let api = kittn.authorize('meowmeowmeow');
-```
-
-> Make sure to replace `meowmeowmeow` with your API key.
-
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
-
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: meowmeowmeow`
+`X-API-TOKEN: YOUR-TOKEN`
 
 <aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
+You must replace <code>YOUR-TOKEN</code> with your personal token.
 </aside>
 
-# Kittens
+## API Endpoints
 
-## Get All Kittens
+API endpoint started with [https://api.betsapi.com/v1](https://api.betsapi.com/v1), http is also supported but https is recommended.
 
-```ruby
-require 'kittn'
+# Events
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
-```
+## InPlay/Upcoming/Ended Events
 
 ```shell
-curl "http://example.com/api/kittens"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let kittens = api.kittens.get();
-```
-
-> The above command returns JSON structured like this:
-
-```json
-[
-  {
-    "id": 1,
-    "name": "Fluffums",
-    "breed": "calico",
-    "fluffiness": 6,
-    "cuteness": 7
-  },
-  {
-    "id": 2,
-    "name": "Max",
-    "breed": "unknown",
-    "fluffiness": 5,
-    "cuteness": 10
-  }
-]
-```
-
-This endpoint retrieves all kittens.
-
-### HTTP Request
-
-`GET http://example.com/api/kittens`
-
-### Query Parameters
-
-Parameter | Default | Description
---------- | ------- | -----------
-include_cats | false | If set to true, the result will also include cats.
-available | true | If set to false, the result will include kittens that have already been adopted.
-
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
-
-## Get a Specific Kitten
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get(2)
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get(2)
-```
-
-```shell
-curl "http://example.com/api/kittens/2"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let max = api.kittens.get(2);
+curl "https://api.betsapi.com/events/inplay?sport_id=1"
+  -H "X-API-TOKEN: YOUR-TOKEN"
 ```
 
 > The above command returns JSON structured like this:
 
 ```json
 {
-  "id": 2,
-  "name": "Max",
-  "breed": "unknown",
-  "fluffiness": 5,
-  "cuteness": 10
+    "success": 1,
+    "pager": {
+        "page": 1,
+        "per_page": 50,
+        "total": 12
+    },
+    "results": [
+        {
+            "id": "68384",
+            "time": "1478076778",
+            "time_status": "1",
+            "league": {
+                "id": "2103",
+                "name": "FIBA Europe Cup"
+            },
+            "home": {
+                "id": "7704",
+                "name": "Enisey Krasnoyarsk"
+            },
+            "away": {
+                "id": "56003",
+                "name": "Sigal Prishtina"
+            },
+            "timer": {
+                "tm": "2",
+                "ts": "31",
+                "q": "3"
+            },
+            "scores": {
+                "1": {
+                    "home": "22",
+                    "away": "32"
+                },
+                "2": {
+                    "home": "18",
+                    "away": "18"
+                },
+                "3": {
+                    "home": "40",
+                    "away": "50"
+                },
+                "4": {
+                    "home": "19",
+                    "away": "13"
+                },
+                "5": {
+                    "home": "",
+                    "away": ""
+                },
+                "6": {
+                    "home": "",
+                    "away": ""
+                },
+                "7": {
+                    "home": "59",
+                    "away": "63"
+                }
+            }
+        },
+        {
+        ...
+        }
+    ]
 }
 ```
 
-This endpoint retrieves a specific kitten.
-
-<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
+Get events for inplay/upcoming/ended
 
 ### HTTP Request
 
-`GET http://example.com/kittens/<ID>`
+`GET https://api.betsapi.com/events/inplay`
+
+`GET https://api.betsapi.com/events/upcoming`
+
+`GET https://api.betsapi.com/events/ended`
+
+### Query Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+sport_id | Yes | [Reference](#sport-id)
+league_id | No | useful when you want only one league
+day | No | format YYYYMMDD, eg: 20161201
+page | No | [Pager reference](#pager)
+
+## Events Search
+
+```shell
+curl "https://api.betsapi.com/v1/events/search?token=YOUR_TOKEN&sport_id=1&home=Man%20City&away=Barcelona&time=1478029500"
+```
+
+> The above command returns JSON structured like this:
+
+```json
+{
+    "success": 1,
+    "results": [
+        {
+            "id": "54750",
+            "time": "1478029500",
+            "time_status": "3",
+            "league": {
+                "id": "1040",
+                "name": "UEFA Champions League"
+            },
+            "home": {
+                "id": "708",
+                "name": "Man City"
+            },
+            "away": {
+                "id": "1211",
+                "name": "Barcelona"
+            },
+            "scores": {
+                "2": {
+                    "home": "3",
+                    "away": "1"
+                }
+            }
+        }
+    ]
+}
+```
+
+Search for event with home/away name plus date
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/events/search`
 
 ### URL Parameters
 
-Parameter | Description
---------- | -----------
-ID | The ID of the kitten to retrieve
+Parameter | Required? | Description
+--------- | ------- | -----------
+sport_id | Yes | [Reference](#sport_id)
+home | Yes | home team name
+away | Yes | away team name
+time | Yes | UTC time epoch
 
