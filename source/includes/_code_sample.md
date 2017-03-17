@@ -1,5 +1,5 @@
 # Code Sample
 
-<aside class="notice">Download then remove .txt from filename.</aside>
+<aside class="notice">Download then rename it.</aside>
 
-[PHP](samples/code.php.txt)
+[PHP](samples/code.p.h.p.txt)
