@@ -1,0 +1,2020 @@
+{
+    "success": 1,
+    "results": [
+        {
+            "Id": 5915824,
+            "SportId": 32,
+            "SportName": "Rugby Union",
+            "RegionId": 6,
+            "RegionName": "World",
+            "LeagueId": 22742,
+            "LeagueName": "Super Rugby",
+            "HomeTeam": "Rebels",
+            "AwayTeam": "Chiefs",
+            "BetRadarId": 10583178,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T08:45:00Z",
+            "Scoreboard": {
+                "EventId": 5915824,
+                "Timer": {
+                    "Visible": 1,
+                    "Seconds": 2400,
+                    "ReferenceDate": 1489744091000,
+                    "Running": 1
+                },
+                "SportId": 32,
+                "Name": "GeneralPairgame_SBNG",
+                "Score": {
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Value": 3,
+                                "id": 1,
+                                "Visible": true,
+                                "PeriodId": 1
+                            },
+                            {
+                                "id": 2,
+                                "Value": 0,
+                                "PeriodId": 2,
+                                "Visible": true
+                            },
+                            {
+                                "Value": 0,
+                                "id": 3,
+                                "Visible": true,
+                                "PeriodId": 3
+                            },
+                            {
+                                "id": 4,
+                                "Value": 0,
+                                "PeriodId": 4,
+                                "Visible": true
+                            },
+                            {
+                                "Value": 0,
+                                "id": 5,
+                                "Visible": true,
+                                "PeriodId": 5
+                            },
+                            {
+                                "Value": 0,
+                                "id": 6,
+                                "Visible": true,
+                                "PeriodId": 6
+                            },
+                            {
+                                "id": 7,
+                                "Value": 0,
+                                "PeriodId": 7,
+                                "Visible": true
+                            },
+                            {
+                                "id": 8,
+                                "Value": 0,
+                                "PeriodId": 8,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 9,
+                                "Visible": true,
+                                "id": 9,
+                                "Value": 0
+                            },
+                            {
+                                "id": 10,
+                                "Value": 0,
+                                "PeriodId": 10,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 11,
+                                "Visible": true,
+                                "id": 11,
+                                "Value": 0
+                            },
+                            {
+                                "id": 12,
+                                "Value": 0,
+                                "PeriodId": 12,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 13,
+                                "Visible": true,
+                                "id": 13,
+                                "Value": 0
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 14,
+                                "Value": 0,
+                                "id": 14
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 15,
+                                "Value": 0,
+                                "id": 15
+                            },
+                            {
+                                "id": 16,
+                                "Value": 0,
+                                "PeriodId": 16,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 255,
+                                "Value": 3,
+                                "id": 255
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "Visible": true,
+                                "PeriodId": 1,
+                                "Value": 7,
+                                "id": 1
+                            },
+                            {
+                                "Value": 0,
+                                "id": 2,
+                                "Visible": true,
+                                "PeriodId": 2
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 3,
+                                "Value": 0,
+                                "id": 3
+                            },
+                            {
+                                "Value": 0,
+                                "id": 4,
+                                "Visible": true,
+                                "PeriodId": 4
+                            },
+                            {
+                                "id": 5,
+                                "Value": 0,
+                                "PeriodId": 5,
+                                "Visible": true
+                            },
+                            {
+                                "id": 6,
+                                "Value": 0,
+                                "PeriodId": 6,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 7,
+                                "Visible": true,
+                                "id": 7,
+                                "Value": 0
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 8,
+                                "Value": 0,
+                                "id": 8
+                            },
+                            {
+                                "Value": 0,
+                                "id": 9,
+                                "Visible": true,
+                                "PeriodId": 9
+                            },
+                            {
+                                "PeriodId": 10,
+                                "Visible": true,
+                                "id": 10,
+                                "Value": 0
+                            },
+                            {
+                                "id": 11,
+                                "Value": 0,
+                                "PeriodId": 11,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 12,
+                                "Value": 0,
+                                "id": 12
+                            },
+                            {
+                                "Value": 0,
+                                "id": 13,
+                                "Visible": true,
+                                "PeriodId": 13
+                            },
+                            {
+                                "Value": 0,
+                                "id": 14,
+                                "Visible": true,
+                                "PeriodId": 14
+                            },
+                            {
+                                "id": 15,
+                                "Value": 0,
+                                "PeriodId": 15,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 16,
+                                "Visible": true,
+                                "id": 16,
+                                "Value": 0
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 255,
+                                "Value": 7,
+                                "id": 255
+                            }
+                        ]
+                    },
+                    "Visible": 1,
+                    "id": "C"
+                },
+                "Period": {
+                    "ParentPeriod": 16,
+                    "Visible": 1,
+                    "Id": 2
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5919405,
+            "SportId": 4,
+            "SportName": "Football",
+            "RegionId": 75,
+            "RegionName": "Armenia",
+            "LeagueId": 16057,
+            "LeagueName": "Premier League",
+            "HomeTeam": "FC Ararat",
+            "AwayTeam": "Alashkert FC",
+            "BetRadarId": 9819607,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T10:00:00Z",
+            "Scoreboard": {
+                "SportId": 4,
+                "Name": "Soccer_SBNG",
+                "Score": {
+                    "Team2": {
+                        "Counters": []
+                    },
+                    "Team1": {
+                        "Counters": []
+                    },
+                    "Visible": 1,
+                    "id": "G"
+                },
+                "Period": {
+                    "Id": 0,
+                    "ParentPeriod": 0,
+                    "Visible": 1
+                },
+                "EventId": 5919405,
+                "Timer": {
+                    "Running": 0,
+                    "ReferenceDate": 1489742053000,
+                    "Visible": 0,
+                    "Seconds": 0
+                },
+                "PenaltiesControl": {
+                    "Id": "PC",
+                    "Team2": {
+                        "Counters": []
+                    },
+                    "Team1": {
+                        "Counters": []
+                    },
+                    "Visible": 1
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5919581,
+            "SportId": 4,
+            "SportName": "Football",
+            "RegionId": 17,
+            "RegionName": "Germany",
+            "LeagueId": 5631,
+            "LeagueName": "2. Bundesliga",
+            "HomeTeam": "Arminia Bielefeld",
+            "AwayTeam": "1. FC Kaiserslautern",
+            "BetRadarId": 9691219,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T17:30:00Z",
+            "Scoreboard": {
+                "EventId": 5919581,
+                "PenaltiesControl": {
+                    "Visible": 1,
+                    "Id": "PC",
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Value": 2,
+                                "id": 1
+                            },
+                            {
+                                "PeriodId": 2,
+                                "id": 2,
+                                "Value": 2
+                            },
+                            {
+                                "Value": 2,
+                                "id": 3,
+                                "PeriodId": 3
+                            },
+                            {
+                                "id": 4,
+                                "Value": 2,
+                                "PeriodId": 4
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Value": 2,
+                                "id": 5
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "id": 1,
+                                "Value": 2,
+                                "PeriodId": 1
+                            },
+                            {
+                                "Value": 2,
+                                "id": 2,
+                                "PeriodId": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "Value": 2,
+                                "id": 4,
+                                "PeriodId": 4
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Value": 2,
+                                "id": 5
+                            }
+                        ]
+                    }
+                },
+                "Timer": {
+                    "Seconds": 0,
+                    "Visible": 0,
+                    "ReferenceDate": 1489740858000,
+                    "Running": 0
+                },
+                "SportId": 4,
+                "Name": "Soccer_SBNG",
+                "Score": {
+                    "id": "G",
+                    "Visible": 1,
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "Value": 0,
+                                "id": 1,
+                                "Visible": true,
+                                "PeriodId": 1
+                            },
+                            {
+                                "Value": 0,
+                                "id": 3,
+                                "Visible": true,
+                                "PeriodId": 3
+                            },
+                            {
+                                "id": 5,
+                                "Value": 0,
+                                "PeriodId": 5,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 7,
+                                "Value": 0,
+                                "id": 7
+                            },
+                            {
+                                "id": 9,
+                                "Value": 0,
+                                "PeriodId": 9,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 253,
+                                "Visible": true,
+                                "id": 253,
+                                "Value": 0
+                            },
+                            {
+                                "Value": 0,
+                                "id": 254,
+                                "Visible": true,
+                                "PeriodId": 254
+                            },
+                            {
+                                "Value": 0,
+                                "id": 255,
+                                "Visible": true,
+                                "PeriodId": 255
+                            }
+                        ]
+                    },
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Visible": true,
+                                "id": 1,
+                                "Value": 0
+                            },
+                            {
+                                "Value": 0,
+                                "id": 3,
+                                "Visible": true,
+                                "PeriodId": 3
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Visible": true,
+                                "id": 5,
+                                "Value": 0
+                            },
+                            {
+                                "id": 7,
+                                "Value": 0,
+                                "PeriodId": 7,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 9,
+                                "Visible": true,
+                                "id": 9,
+                                "Value": 0
+                            },
+                            {
+                                "Value": 0,
+                                "id": 253,
+                                "Visible": true,
+                                "PeriodId": 253
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 254,
+                                "Value": 0,
+                                "id": 254
+                            },
+                            {
+                                "id": 255,
+                                "Value": 0,
+                                "PeriodId": 255,
+                                "Visible": true
+                            }
+                        ]
+                    }
+                },
+                "Period": {
+                    "Id": 0,
+                    "ParentPeriod": 0,
+                    "Visible": 1
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5919582,
+            "SportId": 4,
+            "SportName": "Football",
+            "RegionId": 17,
+            "RegionName": "Germany",
+            "LeagueId": 5631,
+            "LeagueName": "2. Bundesliga",
+            "HomeTeam": "Eintracht Braunschweig",
+            "AwayTeam": "1. FC Heidenheim",
+            "BetRadarId": 9691213,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T17:30:00Z",
+            "Scoreboard": {
+                "EventId": 5919582,
+                "Timer": {
+                    "Running": 0,
+                    "ReferenceDate": 1489740858000,
+                    "Visible": 0,
+                    "Seconds": 0
+                },
+                "PenaltiesControl": {
+                    "Id": "PC",
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "id": 1,
+                                "Value": 2
+                            },
+                            {
+                                "id": 2,
+                                "Value": 2,
+                                "PeriodId": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "id": 3,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 4,
+                                "Value": 2,
+                                "id": 4
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Value": 2,
+                                "id": 5
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "id": 1,
+                                "Value": 2
+                            },
+                            {
+                                "id": 2,
+                                "Value": 2,
+                                "PeriodId": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "Value": 2,
+                                "id": 4,
+                                "PeriodId": 4
+                            },
+                            {
+                                "id": 5,
+                                "Value": 2,
+                                "PeriodId": 5
+                            }
+                        ]
+                    },
+                    "Visible": 1
+                },
+                "SportId": 4,
+                "Period": {
+                    "Id": 0,
+                    "Visible": 1,
+                    "ParentPeriod": 0
+                },
+                "Score": {
+                    "Visible": 1,
+                    "id": "G",
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Visible": true,
+                                "id": 1,
+                                "Value": 0
+                            },
+                            {
+                                "Value": 0,
+                                "id": 3,
+                                "Visible": true,
+                                "PeriodId": 3
+                            },
+                            {
+                                "id": 5,
+                                "Value": 0,
+                                "PeriodId": 5,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 7,
+                                "Visible": true,
+                                "id": 7,
+                                "Value": 0
+                            },
+                            {
+                                "PeriodId": 9,
+                                "Visible": true,
+                                "id": 9,
+                                "Value": 0
+                            },
+                            {
+                                "Value": 0,
+                                "id": 253,
+                                "Visible": true,
+                                "PeriodId": 253
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 254,
+                                "Value": 0,
+                                "id": 254
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 255,
+                                "Value": 0,
+                                "id": 255
+                            }
+                        ]
+                    },
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Visible": true,
+                                "PeriodId": 1,
+                                "Value": 0,
+                                "id": 1
+                            },
+                            {
+                                "id": 3,
+                                "Value": 0,
+                                "PeriodId": 3,
+                                "Visible": true
+                            },
+                            {
+                                "Value": 0,
+                                "id": 5,
+                                "Visible": true,
+                                "PeriodId": 5
+                            },
+                            {
+                                "id": 7,
+                                "Value": 0,
+                                "PeriodId": 7,
+                                "Visible": true
+                            },
+                            {
+                                "Value": 0,
+                                "id": 9,
+                                "Visible": true,
+                                "PeriodId": 9
+                            },
+                            {
+                                "id": 253,
+                                "Value": 0,
+                                "PeriodId": 253,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 254,
+                                "Value": 0,
+                                "id": 254
+                            },
+                            {
+                                "Value": 0,
+                                "id": 255,
+                                "Visible": true,
+                                "PeriodId": 255
+                            }
+                        ]
+                    }
+                },
+                "Name": "Soccer_SBNG"
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5919583,
+            "SportId": 4,
+            "SportName": "Football",
+            "RegionId": 17,
+            "RegionName": "Germany",
+            "LeagueId": 5631,
+            "LeagueName": "2. Bundesliga",
+            "HomeTeam": "TSV 1860 Munich",
+            "AwayTeam": "W\u00fcrzburger Kickers",
+            "BetRadarId": 9691221,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T17:30:00Z",
+            "Scoreboard": {
+                "SportId": 4,
+                "Score": {
+                    "id": "G",
+                    "Visible": 1,
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Value": 0,
+                                "id": 1,
+                                "Visible": true,
+                                "PeriodId": 1
+                            },
+                            {
+                                "id": 3,
+                                "Value": 0,
+                                "PeriodId": 3,
+                                "Visible": true
+                            },
+                            {
+                                "id": 5,
+                                "Value": 0,
+                                "PeriodId": 5,
+                                "Visible": true
+                            },
+                            {
+                                "Value": 0,
+                                "id": 7,
+                                "Visible": true,
+                                "PeriodId": 7
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 9,
+                                "Value": 0,
+                                "id": 9
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 253,
+                                "Value": 0,
+                                "id": 253
+                            },
+                            {
+                                "id": 254,
+                                "Value": 0,
+                                "PeriodId": 254,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 255,
+                                "Value": 0,
+                                "id": 255
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "id": 1,
+                                "Value": 0,
+                                "PeriodId": 1,
+                                "Visible": true
+                            },
+                            {
+                                "Value": 0,
+                                "id": 3,
+                                "Visible": true,
+                                "PeriodId": 3
+                            },
+                            {
+                                "id": 5,
+                                "Value": 0,
+                                "PeriodId": 5,
+                                "Visible": true
+                            },
+                            {
+                                "id": 7,
+                                "Value": 0,
+                                "PeriodId": 7,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 9,
+                                "Visible": true,
+                                "id": 9,
+                                "Value": 0
+                            },
+                            {
+                                "id": 253,
+                                "Value": 0,
+                                "PeriodId": 253,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 254,
+                                "Visible": true,
+                                "id": 254,
+                                "Value": 0
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 255,
+                                "Value": 0,
+                                "id": 255
+                            }
+                        ]
+                    }
+                },
+                "Name": "Soccer_SBNG",
+                "Period": {
+                    "Id": 0,
+                    "Visible": 1,
+                    "ParentPeriod": 0
+                },
+                "EventId": 5919583,
+                "PenaltiesControl": {
+                    "Id": "PC",
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Value": 2,
+                                "id": 1,
+                                "PeriodId": 1
+                            },
+                            {
+                                "PeriodId": 2,
+                                "Value": 2,
+                                "id": 2
+                            },
+                            {
+                                "id": 3,
+                                "Value": 2,
+                                "PeriodId": 3
+                            },
+                            {
+                                "PeriodId": 4,
+                                "id": 4,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 5,
+                                "id": 5,
+                                "Value": 2
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "Value": 2,
+                                "id": 1,
+                                "PeriodId": 1
+                            },
+                            {
+                                "PeriodId": 2,
+                                "id": 2,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "Value": 2,
+                                "id": 4,
+                                "PeriodId": 4
+                            },
+                            {
+                                "Value": 2,
+                                "id": 5,
+                                "PeriodId": 5
+                            }
+                        ]
+                    },
+                    "Visible": 1
+                },
+                "Timer": {
+                    "Running": 0,
+                    "Seconds": 0,
+                    "Visible": 0,
+                    "ReferenceDate": 1489740858000
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5921486,
+            "SportId": 4,
+            "SportName": "Football",
+            "RegionId": 69,
+            "RegionName": "Algeria",
+            "LeagueId": 46604,
+            "LeagueName": "U21 League",
+            "HomeTeam": "MO Bejaia (U21)",
+            "AwayTeam": "USM El Harrach (U21)",
+            "BetRadarId": 0,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T10:00:00Z",
+            "Scoreboard": {
+                "SportId": 4,
+                "Name": "Soccer_SBNG",
+                "Score": {
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "id": 1,
+                                "Value": 0,
+                                "PeriodId": 1,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 3,
+                                "Value": 0,
+                                "id": 3
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 5,
+                                "Value": 0,
+                                "id": 5
+                            },
+                            {
+                                "id": 7,
+                                "Value": 0,
+                                "PeriodId": 7,
+                                "Visible": true
+                            },
+                            {
+                                "Value": 0,
+                                "id": 9,
+                                "Visible": true,
+                                "PeriodId": 9
+                            },
+                            {
+                                "Value": 0,
+                                "id": 253,
+                                "Visible": true,
+                                "PeriodId": 253
+                            },
+                            {
+                                "Value": 0,
+                                "id": 254,
+                                "Visible": true,
+                                "PeriodId": 254
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 255,
+                                "Value": 0,
+                                "id": 255
+                            }
+                        ]
+                    },
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Visible": true,
+                                "PeriodId": 1,
+                                "Value": 0,
+                                "id": 1
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Visible": true,
+                                "id": 3,
+                                "Value": 0
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Visible": true,
+                                "id": 5,
+                                "Value": 0
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 7,
+                                "Value": 0,
+                                "id": 7
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 9,
+                                "Value": 0,
+                                "id": 9
+                            },
+                            {
+                                "id": 253,
+                                "Value": 0,
+                                "PeriodId": 253,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 254,
+                                "Value": 0,
+                                "id": 254
+                            },
+                            {
+                                "Value": 0,
+                                "id": 255,
+                                "Visible": true,
+                                "PeriodId": 255
+                            }
+                        ]
+                    },
+                    "Visible": 1,
+                    "id": "G"
+                },
+                "Period": {
+                    "ParentPeriod": 0,
+                    "Visible": 1,
+                    "Id": 0
+                },
+                "EventId": 5921486,
+                "Timer": {
+                    "ReferenceDate": 1489740564000,
+                    "Seconds": 0,
+                    "Visible": 0,
+                    "Running": 0
+                },
+                "PenaltiesControl": {
+                    "Visible": 1,
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Value": 2,
+                                "id": 1
+                            },
+                            {
+                                "Value": 2,
+                                "id": 2,
+                                "PeriodId": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "PeriodId": 4,
+                                "id": 4,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Value": 2,
+                                "id": 5
+                            }
+                        ]
+                    },
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Value": 2,
+                                "id": 1,
+                                "PeriodId": 1
+                            },
+                            {
+                                "PeriodId": 2,
+                                "Value": 2,
+                                "id": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "id": 4,
+                                "Value": 2,
+                                "PeriodId": 4
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Value": 2,
+                                "id": 5
+                            }
+                        ]
+                    },
+                    "Id": "PC"
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5921802,
+            "SportId": 4,
+            "SportName": "Football",
+            "RegionId": 224,
+            "RegionName": "Vietnam",
+            "LeagueId": 8528,
+            "LeagueName": "V-League",
+            "HomeTeam": "Quang Nam",
+            "AwayTeam": "XSKT Can Tho",
+            "BetRadarId": 10800996,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T10:00:00Z",
+            "Scoreboard": {
+                "EventId": 5921802,
+                "Timer": {
+                    "Running": 0,
+                    "ReferenceDate": 1489740562000,
+                    "Seconds": 0,
+                    "Visible": 0
+                },
+                "PenaltiesControl": {
+                    "Visible": 1,
+                    "Id": "PC",
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Value": 2,
+                                "id": 1
+                            },
+                            {
+                                "id": 2,
+                                "Value": 2,
+                                "PeriodId": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "Value": 2,
+                                "id": 4,
+                                "PeriodId": 4
+                            },
+                            {
+                                "id": 5,
+                                "Value": 2,
+                                "PeriodId": 5
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "id": 1,
+                                "Value": 2,
+                                "PeriodId": 1
+                            },
+                            {
+                                "Value": 2,
+                                "id": 2,
+                                "PeriodId": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "PeriodId": 4,
+                                "id": 4,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Value": 2,
+                                "id": 5
+                            }
+                        ]
+                    }
+                },
+                "SportId": 4,
+                "Score": {
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Visible": true,
+                                "PeriodId": 1,
+                                "Value": 0,
+                                "id": 1
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Visible": true,
+                                "id": 3,
+                                "Value": 0
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Visible": true,
+                                "id": 5,
+                                "Value": 0
+                            },
+                            {
+                                "Value": 0,
+                                "id": 7,
+                                "Visible": true,
+                                "PeriodId": 7
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 9,
+                                "Value": 0,
+                                "id": 9
+                            },
+                            {
+                                "Value": 0,
+                                "id": 253,
+                                "Visible": true,
+                                "PeriodId": 253
+                            },
+                            {
+                                "id": 254,
+                                "Value": 0,
+                                "PeriodId": 254,
+                                "Visible": true
+                            },
+                            {
+                                "id": 255,
+                                "Value": 0,
+                                "PeriodId": 255,
+                                "Visible": true
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Visible": true,
+                                "id": 1,
+                                "Value": 0
+                            },
+                            {
+                                "id": 3,
+                                "Value": 0,
+                                "PeriodId": 3,
+                                "Visible": true
+                            },
+                            {
+                                "Value": 0,
+                                "id": 5,
+                                "Visible": true,
+                                "PeriodId": 5
+                            },
+                            {
+                                "id": 7,
+                                "Value": 0,
+                                "PeriodId": 7,
+                                "Visible": true
+                            },
+                            {
+                                "PeriodId": 9,
+                                "Visible": true,
+                                "id": 9,
+                                "Value": 0
+                            },
+                            {
+                                "id": 253,
+                                "Value": 0,
+                                "PeriodId": 253,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 254,
+                                "Value": 0,
+                                "id": 254
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 255,
+                                "Value": 0,
+                                "id": 255
+                            }
+                        ]
+                    },
+                    "id": "G",
+                    "Visible": 1
+                },
+                "Name": "Soccer_SBNG",
+                "Period": {
+                    "Visible": 1,
+                    "ParentPeriod": 0,
+                    "Id": 0
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5921803,
+            "SportId": 4,
+            "SportName": "Football",
+            "RegionId": 25,
+            "RegionName": "Russia",
+            "LeagueId": 9774,
+            "LeagueName": "Premier - Liga Youth",
+            "HomeTeam": "Ural Ekaterinburg Youth",
+            "AwayTeam": "Rubin Kazan Youth",
+            "BetRadarId": 10525810,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T08:00:00Z",
+            "Scoreboard": {
+                "EventId": 5921803,
+                "Timer": {
+                    "Running": 1,
+                    "Visible": 1,
+                    "Seconds": 2700,
+                    "ReferenceDate": 1489741643000
+                },
+                "PenaltiesControl": {
+                    "Visible": 1,
+                    "Id": "PC",
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Value": 2,
+                                "id": 1,
+                                "PeriodId": 1
+                            },
+                            {
+                                "Value": 2,
+                                "id": 2,
+                                "PeriodId": 2
+                            },
+                            {
+                                "id": 3,
+                                "Value": 2,
+                                "PeriodId": 3
+                            },
+                            {
+                                "PeriodId": 4,
+                                "Value": 2,
+                                "id": 4
+                            },
+                            {
+                                "Value": 2,
+                                "id": 5,
+                                "PeriodId": 5
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "id": 1,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 2,
+                                "Value": 2,
+                                "id": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "PeriodId": 4,
+                                "Value": 2,
+                                "id": 4
+                            },
+                            {
+                                "id": 5,
+                                "Value": 2,
+                                "PeriodId": 5
+                            }
+                        ]
+                    }
+                },
+                "SportId": 4,
+                "Period": {
+                    "ParentPeriod": 0,
+                    "Visible": 1,
+                    "Id": 3
+                },
+                "Name": "Soccer_SBNG",
+                "Score": {
+                    "Visible": 1,
+                    "id": "G",
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "id": 1,
+                                "Value": 1,
+                                "PeriodId": 1,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 3,
+                                "Value": 0,
+                                "id": 3
+                            },
+                            {
+                                "Value": 0,
+                                "id": 5,
+                                "Visible": true,
+                                "PeriodId": 5
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 7,
+                                "Value": 0,
+                                "id": 7
+                            },
+                            {
+                                "PeriodId": 9,
+                                "Visible": true,
+                                "id": 9,
+                                "Value": 0
+                            },
+                            {
+                                "PeriodId": 253,
+                                "Visible": true,
+                                "id": 253,
+                                "Value": 0
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 254,
+                                "Value": 1,
+                                "id": 254
+                            },
+                            {
+                                "id": 255,
+                                "Value": 1,
+                                "PeriodId": 255,
+                                "Visible": true
+                            }
+                        ]
+                    },
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Value": 1,
+                                "id": 1,
+                                "Visible": true,
+                                "PeriodId": 1
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Visible": true,
+                                "id": 3,
+                                "Value": 1
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 5,
+                                "Value": 0,
+                                "id": 5
+                            },
+                            {
+                                "Value": 0,
+                                "id": 7,
+                                "Visible": true,
+                                "PeriodId": 7
+                            },
+                            {
+                                "Value": 0,
+                                "id": 9,
+                                "Visible": true,
+                                "PeriodId": 9
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 253,
+                                "Value": 0,
+                                "id": 253
+                            },
+                            {
+                                "PeriodId": 254,
+                                "Visible": true,
+                                "id": 254,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 255,
+                                "Visible": true,
+                                "id": 255,
+                                "Value": 2
+                            }
+                        ]
+                    }
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5922034,
+            "SportId": 4,
+            "SportName": "Football",
+            "RegionId": 28,
+            "RegionName": "Spain",
+            "LeagueId": 16109,
+            "LeagueName": "LaLiga",
+            "HomeTeam": "UD Las Palmas",
+            "AwayTeam": "Villarreal",
+            "BetRadarId": 9769697,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T19:45:00Z",
+            "Scoreboard": {
+                "SportId": 4,
+                "Period": {
+                    "ParentPeriod": 0,
+                    "Visible": 1,
+                    "Id": 0
+                },
+                "Name": "Soccer_SBNG",
+                "Score": {
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Visible": true,
+                                "id": 1,
+                                "Value": 0
+                            },
+                            {
+                                "id": 3,
+                                "Value": 0,
+                                "PeriodId": 3,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 5,
+                                "Value": 0,
+                                "id": 5
+                            },
+                            {
+                                "Value": 0,
+                                "id": 7,
+                                "Visible": true,
+                                "PeriodId": 7
+                            },
+                            {
+                                "Value": 0,
+                                "id": 9,
+                                "Visible": true,
+                                "PeriodId": 9
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 253,
+                                "Value": 0,
+                                "id": 253
+                            },
+                            {
+                                "Value": 0,
+                                "id": 254,
+                                "Visible": true,
+                                "PeriodId": 254
+                            },
+                            {
+                                "PeriodId": 255,
+                                "Visible": true,
+                                "id": 255,
+                                "Value": 0
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Visible": true,
+                                "id": 1,
+                                "Value": 0
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Visible": true,
+                                "id": 3,
+                                "Value": 0
+                            },
+                            {
+                                "Value": 0,
+                                "id": 5,
+                                "Visible": true,
+                                "PeriodId": 5
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 7,
+                                "Value": 0,
+                                "id": 7
+                            },
+                            {
+                                "Value": 0,
+                                "id": 9,
+                                "Visible": true,
+                                "PeriodId": 9
+                            },
+                            {
+                                "Value": 0,
+                                "id": 253,
+                                "Visible": true,
+                                "PeriodId": 253
+                            },
+                            {
+                                "id": 254,
+                                "Value": 0,
+                                "PeriodId": 254,
+                                "Visible": true
+                            },
+                            {
+                                "Value": 0,
+                                "id": 255,
+                                "Visible": true,
+                                "PeriodId": 255
+                            }
+                        ]
+                    },
+                    "id": "G",
+                    "Visible": 1
+                },
+                "EventId": 5922034,
+                "PenaltiesControl": {
+                    "Visible": 1,
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Value": 2,
+                                "id": 1,
+                                "PeriodId": 1
+                            },
+                            {
+                                "PeriodId": 2,
+                                "Value": 2,
+                                "id": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "Value": 2,
+                                "id": 4,
+                                "PeriodId": 4
+                            },
+                            {
+                                "id": 5,
+                                "Value": 2,
+                                "PeriodId": 5
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "id": 1,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 2,
+                                "id": 2,
+                                "Value": 2
+                            },
+                            {
+                                "Value": 2,
+                                "id": 3,
+                                "PeriodId": 3
+                            },
+                            {
+                                "id": 4,
+                                "Value": 2,
+                                "PeriodId": 4
+                            },
+                            {
+                                "Value": 2,
+                                "id": 5,
+                                "PeriodId": 5
+                            }
+                        ]
+                    },
+                    "Id": "PC"
+                },
+                "Timer": {
+                    "Running": 0,
+                    "ReferenceDate": 1489740858000,
+                    "Seconds": 0,
+                    "Visible": 0
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5922224,
+            "SportId": 5,
+            "SportName": "Tennis",
+            "RegionId": 10010,
+            "RegionName": "Challenger",
+            "LeagueId": 38873,
+            "LeagueName": "ATP Challenger Shenzhen (CHN) - Doubles - Hard",
+            "HomeTeam": "D. Marcan\/T.-S. Weissborn",
+            "AwayTeam": "S. Ratiwatana\/S. Ratiwatana",
+            "BetRadarId": 11289325,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T06:57:00Z",
+            "Scoreboard": {
+                "SportId": 5,
+                "Period": {
+                    "ParentPeriod": 3,
+                    "Visible": 1,
+                    "Id": 255
+                },
+                "Surface": {
+                    "Id": "TS",
+                    "Visible": 1,
+                    "Type": "2"
+                },
+                "Score": {
+                    "Visible": 1,
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Visible": true,
+                                "id": 1,
+                                "TieBreakPoint": "7",
+                                "Value": 7,
+                                "Points": "0"
+                            },
+                            {
+                                "id": 2,
+                                "TieBreakPoint": "",
+                                "Value": 4,
+                                "PeriodId": 2,
+                                "Visible": true,
+                                "Points": "0"
+                            },
+                            {
+                                "Points": "0",
+                                "PeriodId": 3,
+                                "Visible": true,
+                                "id": 3,
+                                "TieBreakPoint": "",
+                                "Value": 10
+                            }
+                        ]
+                    },
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Visible": true,
+                                "id": 1,
+                                "TieBreakPoint": "5",
+                                "Value": 6,
+                                "Points": "0"
+                            },
+                            {
+                                "PeriodId": 2,
+                                "Visible": true,
+                                "id": 2,
+                                "TieBreakPoint": "",
+                                "Value": 6,
+                                "Points": "0"
+                            },
+                            {
+                                "TieBreakPoint": "",
+                                "Value": 3,
+                                "id": 3,
+                                "Visible": true,
+                                "PeriodId": 3,
+                                "Points": "0"
+                            }
+                        ]
+                    },
+                    "Turn": {
+                        "Value": 2,
+                        "Visible": 0
+                    }
+                },
+                "Name": "Tennis_SBNG",
+                "EventId": 5922224,
+                "MatchType": {
+                    "Value": "3",
+                    "Visible": 1,
+                    "Id": "MT"
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        },
+        {
+            "Id": 5922408,
+            "SportId": 4,
+            "SportName": "Football",
+            "RegionId": 12,
+            "RegionName": "Czech Republic",
+            "LeagueId": 45917,
+            "LeagueName": "U19 1st Division",
+            "HomeTeam": "FK Pardubice (U19)",
+            "AwayTeam": "SFC Opava (U19)",
+            "BetRadarId": 10346424,
+            "IsPreMatch": false,
+            "Date": "2017-03-17T10:00:00Z",
+            "Scoreboard": {
+                "EventId": 5922408,
+                "Timer": {
+                    "Running": 0,
+                    "Seconds": 0,
+                    "Visible": 0,
+                    "ReferenceDate": 1489740563000
+                },
+                "PenaltiesControl": {
+                    "Visible": 1,
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Value": 2,
+                                "id": 1
+                            },
+                            {
+                                "PeriodId": 2,
+                                "id": 2,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "Value": 2,
+                                "id": 3
+                            },
+                            {
+                                "PeriodId": 4,
+                                "id": 4,
+                                "Value": 2
+                            },
+                            {
+                                "PeriodId": 5,
+                                "Value": 2,
+                                "id": 5
+                            }
+                        ]
+                    },
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "id": 1,
+                                "Value": 2
+                            },
+                            {
+                                "Value": 2,
+                                "id": 2,
+                                "PeriodId": 2
+                            },
+                            {
+                                "PeriodId": 3,
+                                "id": 3,
+                                "Value": 2
+                            },
+                            {
+                                "id": 4,
+                                "Value": 2,
+                                "PeriodId": 4
+                            },
+                            {
+                                "PeriodId": 5,
+                                "id": 5,
+                                "Value": 2
+                            }
+                        ]
+                    },
+                    "Id": "PC"
+                },
+                "SportId": 4,
+                "Score": {
+                    "Team2": {
+                        "Counters": [
+                            {
+                                "PeriodId": 1,
+                                "Visible": true,
+                                "id": 1,
+                                "Value": 0
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 3,
+                                "Value": 0,
+                                "id": 3
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 5,
+                                "Value": 0,
+                                "id": 5
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 7,
+                                "Value": 0,
+                                "id": 7
+                            },
+                            {
+                                "Value": 0,
+                                "id": 9,
+                                "Visible": true,
+                                "PeriodId": 9
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 253,
+                                "Value": 0,
+                                "id": 253
+                            },
+                            {
+                                "PeriodId": 254,
+                                "Visible": true,
+                                "id": 254,
+                                "Value": 0
+                            },
+                            {
+                                "PeriodId": 255,
+                                "Visible": true,
+                                "id": 255,
+                                "Value": 0
+                            }
+                        ]
+                    },
+                    "Team1": {
+                        "Counters": [
+                            {
+                                "Visible": true,
+                                "PeriodId": 1,
+                                "Value": 0,
+                                "id": 1
+                            },
+                            {
+                                "Value": 0,
+                                "id": 3,
+                                "Visible": true,
+                                "PeriodId": 3
+                            },
+                            {
+                                "id": 5,
+                                "Value": 0,
+                                "PeriodId": 5,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 7,
+                                "Value": 0,
+                                "id": 7
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 9,
+                                "Value": 0,
+                                "id": 9
+                            },
+                            {
+                                "id": 253,
+                                "Value": 0,
+                                "PeriodId": 253,
+                                "Visible": true
+                            },
+                            {
+                                "Visible": true,
+                                "PeriodId": 254,
+                                "Value": 0,
+                                "id": 254
+                            },
+                            {
+                                "Value": 0,
+                                "id": 255,
+                                "Visible": true,
+                                "PeriodId": 255
+                            }
+                        ]
+                    },
+                    "Visible": 1,
+                    "id": "G"
+                },
+                "Name": "Soccer_SBNG",
+                "Period": {
+                    "Id": 0,
+                    "ParentPeriod": 0,
+                    "Visible": 1
+                }
+            },
+            "updated_at": "1489744115",
+            "IsOutright": false
+        }
+    ]
+}

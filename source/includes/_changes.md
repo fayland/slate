@@ -2,6 +2,7 @@
 
 ### 2017-03-19
   * rewrite doc page with [slate](https://github.com/lord/slate)
+  * new BWin API
 
 ### 2017-01-08
 

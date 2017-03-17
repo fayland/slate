@@ -25,8 +25,6 @@ Please note that in order to access Bets API you must [contact us](/contactus).
 
 ## Authentication
 
-You will get a **token** from our support. you can either pass it in header **X-API-TOKEN** or pass as token= in GET query.
-
 > To authorize, use this code:
 
 ```shell
@@ -43,6 +41,8 @@ curl "api_endpoint_here?token=YOUR-TOKEN"
 > Make sure to replace `YOUR-TOKEN` with your token.
 
 `X-API-TOKEN: YOUR-TOKEN`
+
+You will get a **token** from our support. you can either pass it in header **X-API-TOKEN** or pass as token= in GET query.
 
 <aside class="notice">
 You must replace <code>YOUR-TOKEN</code> with your personal token.
@@ -62,7 +62,7 @@ You can pay extra 50$ to setup standalone server for unlimited request.
 
 All responses are in JSON and has a **success** key to indicate it is successful or not.
 
-You'll get **results** if everything moves well, and an [error](#error) will be thrown if failed.</p>
+You'll get **results** if everything moves well, and an [error](#errors) will be thrown if failed.</p>
 
 # Pricing
 
@@ -73,6 +73,7 @@ Basketball | $20 per month
 Tennis | $20 per month
 Others | $10 per month
 Bet365 API | plus 150$ per month
+BWin API | plus 100$ per month
 
 We support PayPal and Skrill, [contact us](/contactus) for details.
 
@@ -312,3 +313,65 @@ raw | No | raw Bet365 body without parsing
 ### HTTP Response
 
 [bet365_event.json](samples/bet365_prematch_odds.json)
+
+# BWin API
+
+<aside class="notice">
+It requires bwin permission, see Pricing for more details
+</aside>
+
+## BWin InPlay
+
+```shell
+curl "https://api.betsapi.com/v1/bwin/inplay?token=YOUR_TOKEN"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/bwin/inplay`
+
+### HTTP Response
+
+[bwin_inplay.json](samples/bwin_inplay.json)
+
+## BWin InPlay Odds
+
+```shell
+curl "https://api.betsapi.com/v1/bwin/inplay/odds?token=YOUR_TOKEN\
+&event_id=60504279"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/bwin/inplay/odds`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+event_id | Yes | Event ID you get from /bwin/inplay
+
+### HTTP Response
+
+[bwin_inplay_odds.json](samples/bwin_inplay_odds.json)
+
+## BWin Prematch Odds
+
+```shell
+curl "https://api.betsapi.com/v1/bwin/prematch?token=YOUR_TOKEN"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/bwin/prematch`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+day | No | format YYYYMMDD, eg: 20161201
+sport_id | No | BWin sport_id
+
+### HTTP Response
+
+[bwin_prematch.json](samples/bwin_prematch.json)
