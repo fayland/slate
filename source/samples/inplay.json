@@ -1,0 +1,703 @@
+{
+    "success": 1,
+    "pager": {
+        "page": 1,
+        "per_page": 50,
+        "total": 21
+    },
+    "results": [
+        {
+            "id": "222434",
+            "time": "1489669200",
+            "time_status": "1",
+            "league": {
+                "id": "4148",
+                "name": "Viareggio Cup",
+                "cc": null
+            },
+            "home": {
+                "id": "43717",
+                "name": "Fiorentina U19",
+                "image_id": "42466",
+                "cc": "it"
+            },
+            "away": {
+                "id": "159690",
+                "name": "Garden City Panthers FC U19",
+                "image_id": "320141",
+                "cc": null
+            },
+            "timer": {
+                "tm": 86,
+                "ts": 4,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "2",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "223265",
+            "time": "1489669200",
+            "time_status": "1",
+            "league": {
+                "id": "1501",
+                "name": "Uganda Division 2",
+                "cc": "ug"
+            },
+            "home": {
+                "id": "159745",
+                "name": "Simba FC",
+                "image_id": null,
+                "cc": null
+            },
+            "away": {
+                "id": "80323",
+                "name": "Busia Fisheries",
+                "image_id": null,
+                "cc": null
+            },
+            "timer": {
+                "tm": 69,
+                "ts": 1,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "1",
+                    "away": "2"
+                }
+            }
+        },
+        {
+            "id": "222435",
+            "time": "1489669451",
+            "time_status": "1",
+            "league": {
+                "id": "4148",
+                "name": "Viareggio Cup",
+                "cc": null
+            },
+            "home": {
+                "id": "44907",
+                "name": "Napoli U19",
+                "image_id": "42465",
+                "cc": "it"
+            },
+            "away": {
+                "id": "122589",
+                "name": "Serie D Selection U19",
+                "image_id": "90164",
+                "cc": null
+            },
+            "timer": {
+                "tm": 84,
+                "ts": 3,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "1",
+                    "away": "1"
+                }
+            }
+        },
+        {
+            "id": "220711",
+            "time": "1489671000",
+            "time_status": "1",
+            "league": {
+                "id": "2761",
+                "name": "Oman Sultans Cup",
+                "cc": "om"
+            },
+            "home": {
+                "id": "46984",
+                "name": "Oman FC",
+                "image_id": "57443",
+                "cc": "om"
+            },
+            "away": {
+                "id": "46983",
+                "name": "Al-Suwaiq",
+                "image_id": "47484",
+                "cc": "om"
+            },
+            "timer": {
+                "tm": 59,
+                "ts": 22,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "222362",
+            "time": "1489671000",
+            "time_status": "1",
+            "league": {
+                "id": "363",
+                "name": "Europe Friendlies",
+                "cc": "eu"
+            },
+            "home": {
+                "id": "27219",
+                "name": "Sint-Truidense",
+                "image_id": "2895",
+                "cc": "be"
+            },
+            "away": {
+                "id": "6323",
+                "name": "Lommel",
+                "image_id": "5046",
+                "cc": "be"
+            },
+            "timer": {
+                "tm": 59,
+                "ts": 4,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "3",
+                    "away": "1"
+                }
+            }
+        },
+        {
+            "id": "210868",
+            "time": "1489672702",
+            "time_status": "1",
+            "league": {
+                "id": "194",
+                "name": "Hungary NB II",
+                "cc": "hu"
+            },
+            "home": {
+                "id": "44056",
+                "name": "Budaorsi SC",
+                "image_id": "25329",
+                "cc": "hu"
+            },
+            "away": {
+                "id": "65209",
+                "name": "Aqvital FC Csakvar",
+                "image_id": "44141",
+                "cc": "hu"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "2",
+                    "away": "1"
+                }
+            }
+        },
+        {
+            "id": "222439",
+            "time": "1489672749",
+            "time_status": "1",
+            "league": {
+                "id": "4148",
+                "name": "Viareggio Cup",
+                "cc": null
+            },
+            "home": {
+                "id": "48754",
+                "name": "Genoa U19",
+                "image_id": "79111",
+                "cc": "it"
+            },
+            "away": {
+                "id": "48743",
+                "name": "Cagliari U19",
+                "image_id": "79041",
+                "cc": "it"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "2"
+                }
+            }
+        },
+        {
+            "id": "222577",
+            "time": "1489672775",
+            "time_status": "1",
+            "league": {
+                "id": "363",
+                "name": "Europe Friendlies",
+                "cc": "eu"
+            },
+            "home": {
+                "id": "9844",
+                "name": "Aalesund",
+                "image_id": "677",
+                "cc": "no"
+            },
+            "away": {
+                "id": "1154",
+                "name": "Odd BK",
+                "image_id": "659",
+                "cc": "no"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "2"
+                }
+            }
+        },
+        {
+            "id": "222441",
+            "time": "1489672778",
+            "time_status": "1",
+            "league": {
+                "id": "4148",
+                "name": "Viareggio Cup",
+                "cc": null
+            },
+            "home": {
+                "id": "4888",
+                "name": "HNK Rijeka U19",
+                "image_id": "90154",
+                "cc": "hr"
+            },
+            "away": {
+                "id": "159691",
+                "name": "Reggiana U19",
+                "image_id": "90244",
+                "cc": null
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "1",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "210866",
+            "time": "1489672782",
+            "time_status": "1",
+            "league": {
+                "id": "194",
+                "name": "Hungary NB II",
+                "cc": "hu"
+            },
+            "home": {
+                "id": "1106",
+                "name": "Kozarmisleny SE",
+                "image_id": "25393",
+                "cc": "hu"
+            },
+            "away": {
+                "id": "43985",
+                "name": "Nyiregyhaza Spartacus",
+                "image_id": "5124",
+                "cc": "hu"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "209976",
+            "time": "1489672789",
+            "time_status": "1",
+            "league": {
+                "id": "194",
+                "name": "Hungary NB II",
+                "cc": "hu"
+            },
+            "home": {
+                "id": "858",
+                "name": "Varda SE",
+                "image_id": "25397",
+                "cc": "hu"
+            },
+            "away": {
+                "id": "1107",
+                "name": "Soproni VSE",
+                "image_id": "25622",
+                "cc": "hu"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "1",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "210867",
+            "time": "1489672800",
+            "time_status": "1",
+            "league": {
+                "id": "194",
+                "name": "Hungary NB II",
+                "cc": "hu"
+            },
+            "home": {
+                "id": "43987",
+                "name": "Dorogi FC",
+                "image_id": "102007",
+                "cc": "hu"
+            },
+            "away": {
+                "id": "4891",
+                "name": "BFC Siofok",
+                "image_id": "1928",
+                "cc": "hu"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "210869",
+            "time": "1489672800",
+            "time_status": "1",
+            "league": {
+                "id": "194",
+                "name": "Hungary NB II",
+                "cc": "hu"
+            },
+            "home": {
+                "id": "860",
+                "name": "Soroksar",
+                "image_id": "25621",
+                "cc": "hu"
+            },
+            "away": {
+                "id": "43993",
+                "name": "Cigand SE",
+                "image_id": "25591",
+                "cc": "hu"
+            },
+            "timer": {
+                "tm": 46,
+                "ts": 26,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "210870",
+            "time": "1489672800",
+            "time_status": "1",
+            "league": {
+                "id": "194",
+                "name": "Hungary NB II",
+                "cc": "hu"
+            },
+            "home": {
+                "id": "43998",
+                "name": "Szolnoki Mav FC",
+                "image_id": "25627",
+                "cc": "hu"
+            },
+            "away": {
+                "id": "1105",
+                "name": "Szeol SC",
+                "image_id": "170382",
+                "cc": "hu"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "219830",
+            "time": "1489672800",
+            "time_status": "1",
+            "league": {
+                "id": "194",
+                "name": "Hungary NB II",
+                "cc": "hu"
+            },
+            "home": {
+                "id": "43986",
+                "name": "Szeged 2011",
+                "image_id": "25624",
+                "cc": "hu"
+            },
+            "away": {
+                "id": "80405",
+                "name": "MTE 1904",
+                "image_id": "25610",
+                "cc": "hu"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "219832",
+            "time": "1489672800",
+            "time_status": "1",
+            "league": {
+                "id": "194",
+                "name": "Hungary NB II",
+                "cc": "hu"
+            },
+            "home": {
+                "id": "4443",
+                "name": "Cegledi VSE",
+                "image_id": "25589",
+                "cc": "hu"
+            },
+            "away": {
+                "id": "1009",
+                "name": "Zalaegerszegi TE",
+                "image_id": "1922",
+                "cc": "hu"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "2",
+                    "away": "1"
+                }
+            }
+        },
+        {
+            "id": "222436",
+            "time": "1489672800",
+            "time_status": "1",
+            "league": {
+                "id": "4148",
+                "name": "Viareggio Cup",
+                "cc": null
+            },
+            "home": {
+                "id": "43716",
+                "name": "AC Milan U19",
+                "image_id": "64121",
+                "cc": "it"
+            },
+            "away": {
+                "id": "120585",
+                "name": "Ujana U19",
+                "image_id": "247775",
+                "cc": "it"
+            },
+            "timer": {
+                "tm": 41,
+                "ts": 44,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "222437",
+            "time": "1489672800",
+            "time_status": "1",
+            "league": {
+                "id": "4148",
+                "name": "Viareggio Cup",
+                "cc": null
+            },
+            "home": {
+                "id": "45089",
+                "name": "Club Brugge U19",
+                "image_id": "90246",
+                "cc": "be"
+            },
+            "away": {
+                "id": "80662",
+                "name": "Parma U19",
+                "image_id": "72080",
+                "cc": null
+            },
+            "timer": {
+                "tm": 44,
+                "ts": 44,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "1",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "222438",
+            "time": "1489672800",
+            "time_status": "1",
+            "league": {
+                "id": "4148",
+                "name": "Viareggio Cup",
+                "cc": null
+            },
+            "home": {
+                "id": "122588",
+                "name": "Deportivo Camioneros U19",
+                "image_id": "247773",
+                "cc": null
+            },
+            "away": {
+                "id": "46641",
+                "name": "Bari U19",
+                "image_id": "79065",
+                "cc": "it"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 0,
+                "tt": "0"
+            },
+            "scores": {
+                "2": {
+                    "home": "1",
+                    "away": "0"
+                }
+            }
+        },
+        {
+            "id": "222440",
+            "time": "1489672800",
+            "time_status": "1",
+            "league": {
+                "id": "4148",
+                "name": "Viareggio Cup",
+                "cc": null
+            },
+            "home": {
+                "id": "122593",
+                "name": "CAI U19",
+                "image_id": "320139",
+                "cc": null
+            },
+            "away": {
+                "id": "48753",
+                "name": "Perugia U19",
+                "image_id": "167854",
+                "cc": "it"
+            },
+            "timer": {
+                "tm": 45,
+                "ts": 59,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "1",
+                    "away": "1"
+                }
+            }
+        },
+        {
+            "id": "222582",
+            "time": "1489674566",
+            "time_status": "1",
+            "league": {
+                "id": "96",
+                "name": "Cameroon Elite One",
+                "cc": "cm"
+            },
+            "home": {
+                "id": "84277",
+                "name": "Les Astres FC De Douala",
+                "image_id": "42576",
+                "cc": "cm"
+            },
+            "away": {
+                "id": "681",
+                "name": "Union Douala",
+                "image_id": "62230",
+                "cc": "cm"
+            },
+            "timer": {
+                "tm": 18,
+                "ts": 29,
+                "tt": "1"
+            },
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "0"
+                }
+            }
+        }
+    ]
+}

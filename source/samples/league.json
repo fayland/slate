@@ -1,0 +1,260 @@
+{
+    "success": 1,
+    "pager": {
+        "page": 1,
+        "per_page": 50,
+        "total": 960
+    },
+    "results": [
+        {
+            "id": "1",
+            "name": "Mexico Liga de Ascenso Apertura",
+            "cc": "mx"
+        },
+        {
+            "id": "2",
+            "name": "Australia New South Wales League 2",
+            "cc": "au"
+        },
+        {
+            "id": "3",
+            "name": "Australia Queensland Premier League Women",
+            "cc": "au"
+        },
+        {
+            "id": "4",
+            "name": "Australia New South Wales U20 League",
+            "cc": "au"
+        },
+        {
+            "id": "5",
+            "name": "Australia WA Premier League Women",
+            "cc": "au"
+        },
+        {
+            "id": "6",
+            "name": "Fiji Cup",
+            "cc": "fj"
+        },
+        {
+            "id": "7",
+            "name": "USA USL Pro",
+            "cc": "us"
+        },
+        {
+            "id": "8",
+            "name": "Australia ACT Premier Pathway League",
+            "cc": "au"
+        },
+        {
+            "id": "9",
+            "name": "Australia NPL Finals",
+            "cc": "au"
+        },
+        {
+            "id": "10",
+            "name": "Hong Kong Premier League",
+            "cc": "hk"
+        },
+        {
+            "id": "11",
+            "name": "Australia New South Wales NPL Women",
+            "cc": "au"
+        },
+        {
+            "id": "12",
+            "name": "Beach Soccer - 36 mins play",
+            "cc": null
+        },
+        {
+            "id": "13",
+            "name": "Japan Cup",
+            "cc": "jp"
+        },
+        {
+            "id": "15",
+            "name": "China Division 1",
+            "cc": "cn"
+        },
+        {
+            "id": "16",
+            "name": "Australia Victoria Premier League",
+            "cc": "au"
+        },
+        {
+            "id": "17",
+            "name": "UEFA Womens Champions League",
+            "cc": "eu"
+        },
+        {
+            "id": "19",
+            "name": "Australia Queensland Premier League",
+            "cc": "au"
+        },
+        {
+            "id": "20",
+            "name": "Slovakia Youth League",
+            "cc": "sk"
+        },
+        {
+            "id": "21",
+            "name": "Czech Republic 2. Liga",
+            "cc": "cz"
+        },
+        {
+            "id": "22",
+            "name": "Czech Republic 3. Ligy",
+            "cc": "cz"
+        },
+        {
+            "id": "23",
+            "name": "Czech Republic 4. Ligy",
+            "cc": "cz"
+        },
+        {
+            "id": "24",
+            "name": "Czech Republic U21 League",
+            "cc": "cz"
+        },
+        {
+            "id": "25",
+            "name": "Slovakia 3. Liga",
+            "cc": "sk"
+        },
+        {
+            "id": "26",
+            "name": "U19 International",
+            "cc": null
+        },
+        {
+            "id": "28",
+            "name": "Germany Bundesliga U19",
+            "cc": "de"
+        },
+        {
+            "id": "29",
+            "name": "Indonesia Soccer Championship A",
+            "cc": "id"
+        },
+        {
+            "id": "30",
+            "name": "France U19 League",
+            "cc": "fr"
+        },
+        {
+            "id": "31",
+            "name": "Poland III Liga",
+            "cc": "pl"
+        },
+        {
+            "id": "32",
+            "name": "Finland Kolmonen",
+            "cc": "fi"
+        },
+        {
+            "id": "33",
+            "name": "Poland Ekstraklasa Women",
+            "cc": "pl"
+        },
+        {
+            "id": "34",
+            "name": "Singapore Prime League",
+            "cc": "sg"
+        },
+        {
+            "id": "35",
+            "name": "Serbia U19 League",
+            "cc": "rs"
+        },
+        {
+            "id": "36",
+            "name": "Thailand Division 2",
+            "cc": "th"
+        },
+        {
+            "id": "37",
+            "name": "Vietnam Championship Women",
+            "cc": "vn"
+        },
+        {
+            "id": "38",
+            "name": "Spain Tercera Group 15",
+            "cc": "es"
+        },
+        {
+            "id": "39",
+            "name": "Spain Tercera Group 4",
+            "cc": "es"
+        },
+        {
+            "id": "40",
+            "name": "Spain Tercera Group 17",
+            "cc": "es"
+        },
+        {
+            "id": "41",
+            "name": "Spain Tercera Group 6",
+            "cc": "es"
+        },
+        {
+            "id": "42",
+            "name": "Spain Tercera Group 7",
+            "cc": "es"
+        },
+        {
+            "id": "43",
+            "name": "Germany Oberliga Hamburg",
+            "cc": "de"
+        },
+        {
+            "id": "44",
+            "name": "Romania Liga II",
+            "cc": "ro"
+        },
+        {
+            "id": "45",
+            "name": "Spain Tercera Group 10",
+            "cc": "es"
+        },
+        {
+            "id": "46",
+            "name": "Spain Tercera Group 14",
+            "cc": "es"
+        },
+        {
+            "id": "47",
+            "name": "Spain Tercera Group 9",
+            "cc": "es"
+        },
+        {
+            "id": "48",
+            "name": "Vietnam V-League",
+            "cc": "vn"
+        },
+        {
+            "id": "49",
+            "name": "Denmark Superligaen",
+            "cc": "dk"
+        },
+        {
+            "id": "50",
+            "name": "Spain Segunda B Group 2",
+            "cc": "es"
+        },
+        {
+            "id": "51",
+            "name": "Spain Segunda B Group 3",
+            "cc": "es"
+        },
+        {
+            "id": "52",
+            "name": "Spain Tercera Group 1",
+            "cc": "es"
+        },
+        {
+            "id": "53",
+            "name": "Spain Tercera Group 16",
+            "cc": "es"
+        }
+    ]
+}

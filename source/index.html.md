@@ -1,28 +1,31 @@
 ---
-title: Bets API Specification v1.0
+title: Bets API Specification v1.0 - BetsAPI.com
 
 language_tabs:
   - shell
 
 toc_footers:
+  - <a href='/'>Back Home</a>
   - <a href='/contactus'>Contact Us</a>
 
 includes:
+  - faq
   - references
   - changes
+  - code_sample
 
 search: true
 ---
 
 # Introduction
 
-Bets API is a RESTful service for data on all sports. It is a *PAID* service with low price (started with $10 per month).
+Bets API is a RESTful service for data on all sports. It is a **PAID** service with low price (started with $10 per month).
 
 Please note that in order to access Bets API you must [contact us](/contactus).
 
-# Authentication
+## Authentication
 
-You will get a *token* from our support. you can either pass it in header *X-API-TOKEN* or pass as token= in GET query.
+You will get a **token** from our support. you can either pass it in header **X-API-TOKEN** or pass as token= in GET query.
 
 > To authorize, use this code:
 
@@ -30,6 +33,11 @@ You will get a *token* from our support. you can either pass it in header *X-API
 # With shell, pass the correct header with each request
 curl "api_endpoint_here"
   -H "X-API-TOKEN: YOUR-TOKEN"
+```
+
+```shell
+# With shell, pass the correct header with each request
+curl "api_endpoint_here?token=YOUR-TOKEN"
 ```
 
 > Make sure to replace `YOUR-TOKEN` with your token.
@@ -44,92 +52,87 @@ You must replace <code>YOUR-TOKEN</code> with your personal token.
 
 API endpoint started with [https://api.betsapi.com/v1](https://api.betsapi.com/v1), http is also supported but https is recommended.
 
+## Rate Limatation
+
+3600 requests per hour.
+
+You can pay extra 50$ to setup standalone server for unlimited request.
+
+## Response
+
+All responses are in JSON and has a **success** key to indicate it is successful or not.
+
+You'll get **results** if everything moves well, and an [error](#error) will be thrown if failed.</p>
+
+# Pricing
+
+Sport | Price
+--------- | -------
+Soccer | $20 per month
+Basketball | $20 per month
+Tennis | $20 per month
+Others | $10 per month
+Bet365 API | plus 150$ per month
+
+We support PayPal and Skrill, [contact us](/contactus) for details.
+
 # Events
 
-## InPlay/Upcoming/Ended Events
+## InPlay Events
 
 ```shell
 curl "https://api.betsapi.com/events/inplay?sport_id=1"
   -H "X-API-TOKEN: YOUR-TOKEN"
 ```
 
-> The above command returns JSON structured like this:
-
-```json
-{
-    "success": 1,
-    "pager": {
-        "page": 1,
-        "per_page": 50,
-        "total": 12
-    },
-    "results": [
-        {
-            "id": "68384",
-            "time": "1478076778",
-            "time_status": "1",
-            "league": {
-                "id": "2103",
-                "name": "FIBA Europe Cup"
-            },
-            "home": {
-                "id": "7704",
-                "name": "Enisey Krasnoyarsk"
-            },
-            "away": {
-                "id": "56003",
-                "name": "Sigal Prishtina"
-            },
-            "timer": {
-                "tm": "2",
-                "ts": "31",
-                "q": "3"
-            },
-            "scores": {
-                "1": {
-                    "home": "22",
-                    "away": "32"
-                },
-                "2": {
-                    "home": "18",
-                    "away": "18"
-                },
-                "3": {
-                    "home": "40",
-                    "away": "50"
-                },
-                "4": {
-                    "home": "19",
-                    "away": "13"
-                },
-                "5": {
-                    "home": "",
-                    "away": ""
-                },
-                "6": {
-                    "home": "",
-                    "away": ""
-                },
-                "7": {
-                    "home": "59",
-                    "away": "63"
-                }
-            }
-        },
-        {
-        ...
-        }
-    ]
-}
-```
-
-Get events for inplay/upcoming/ended
-
 ### HTTP Request
 
 `GET https://api.betsapi.com/events/inplay`
 
+### Query Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+sport_id | Yes | [Reference](#sport-id)
+league_id | No | useful when you want only one league
+page | No | [Pager reference](#pager)
+
+### HTTP Response
+
+[inplay.json](samples/inplay.json)
+
+## Upcoming Events
+
+```shell
+curl "https://api.betsapi.com/events/upcoming?sport_id=1"
+  -H "X-API-TOKEN: YOUR-TOKEN"
+```
+
+### HTTP Request
+
 `GET https://api.betsapi.com/events/upcoming`
+
+### Query Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+sport_id | Yes | [Reference](#sport-id)
+league_id | No | useful when you want only one league
+day | No | format YYYYMMDD, eg: 20161201
+page | No | [Pager reference](#pager)
+
+### HTTP Response
+
+[upcoming.json](samples/upcoming.json)
+
+## Ended Events
+
+```shell
+curl "https://api.betsapi.com/events/ended?sport_id=1"
+  -H "X-API-TOKEN: YOUR-TOKEN"
+```
+
+### HTTP Request
 
 `GET https://api.betsapi.com/events/ended`
 
@@ -142,43 +145,15 @@ league_id | No | useful when you want only one league
 day | No | format YYYYMMDD, eg: 20161201
 page | No | [Pager reference](#pager)
 
+### HTTP Response
+
+[ended.json](samples/ended.json)
+
 ## Events Search
 
 ```shell
-curl "https://api.betsapi.com/v1/events/search?token=YOUR_TOKEN&sport_id=1&home=Man%20City&away=Barcelona&time=1478029500"
-```
-
-> The above command returns JSON structured like this:
-
-```json
-{
-    "success": 1,
-    "results": [
-        {
-            "id": "54750",
-            "time": "1478029500",
-            "time_status": "3",
-            "league": {
-                "id": "1040",
-                "name": "UEFA Champions League"
-            },
-            "home": {
-                "id": "708",
-                "name": "Man City"
-            },
-            "away": {
-                "id": "1211",
-                "name": "Barcelona"
-            },
-            "scores": {
-                "2": {
-                    "home": "3",
-                    "away": "1"
-                }
-            }
-        }
-    ]
-}
+curl "https://api.betsapi.com/v1/events/search?token=YOUR_TOKEN\
+&sport_id=1&home=Man%20City&away=Barcelona&time=1478029500"
 ```
 
 Search for event with home/away name plus date
@@ -194,5 +169,146 @@ Parameter | Required? | Description
 sport_id | Yes | [Reference](#sport_id)
 home | Yes | home team name
 away | Yes | away team name
-time | Yes | UTC time epoch
+time | Yes | UTC time epoch (Limited to 90 days)
 
+### HTTP Response
+
+[search.json](samples/search.json)
+
+## Event View
+
+```shell
+curl "https://api.betsapi.com/v1/event/view?token=YOUR_TOKEN\
+&event_id=92149"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/event/view`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+event_id | Yes | Event ID you get from events/*
+
+<aside class="notice">you can send multiple event_ids in one request with event_id=1,2,3,4 up to max 10 ids.</aside>
+
+### HTTP Response
+
+[event_view.json](samples/event_view.json)
+
+## Event Odds
+
+```shell
+curl "https://api.betsapi.com/v1/event/odds?token=YOUR_TOKEN\
+&event_id=92149"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/event/odds`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+event_id | Yes | Event ID you get from events/*
+source | No | Possible value: bet365, 10bet, ladbrokes, williamhill, betclic, pinnaclesports, planetwin365, ysb88, 188bet, unibet, bwin, betfair, betfred. defaults to bet365.
+since_time | No | Integer. add_time will be >= $since_time in results. Faster to get only updates.
+
+### HTTP Response
+
+[event_odds.json](samples/event_odds.json)
+
+## League
+
+```shell
+curl "https://api.betsapi.com/v1/league?token=YOUR_TOKEN\
+&sport_id=1"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/league`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+sport_id | Yes | [Reference](#sport-id)
+page | No | [Pager reference](#pager)
+
+### HTTP Response
+
+[league.json](samples/league.json)
+
+# Bet365 API
+
+<aside class="notice">
+It requires bet365 permission, see Pricing for more details
+</aside>
+
+## Bet365 InPlay
+
+```shell
+curl "https://api.betsapi.com/v1/bet365/inplay?token=YOUR_TOKEN"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/bet365/inplay`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+raw | No | raw Bet365 body without parsing
+
+### HTTP Response
+
+[bet365_inplay.json](samples/bet365_inplay.json)
+
+## Bet365 Event
+
+```shell
+curl "https://api.betsapi.com/v1/bet365/event?token=YOUR_TOKEN\
+&FI=60504279"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/bet365/event`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+FI | Yes | FI from Bet365 Inplay
+raw | No | raw Bet365 body without parsing
+
+### HTTP Response
+
+[bet365_event.json](samples/bet365_event.json)
+
+## Bet365 PreMatch Odds
+
+```shell
+curl "https://api.betsapi.com/v1/bet365/start_sp?token=YOUR_TOKEN\
+&event_id=60504279"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/bet365/start_sp`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+event_id | Yes | Event ID you get from events/*
+raw | No | raw Bet365 body without parsing
+
+### HTTP Response
+
+[bet365_event.json](samples/bet365_prematch_odds.json)
