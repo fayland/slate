@@ -2,4 +2,4 @@
 
 <aside class="notice">Download then rename it.</aside>
 
-[PHP](samples/code.p.h.p.txt)
+[PHP](samples/code_php.txt)
