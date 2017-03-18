@@ -82,13 +82,13 @@ We support PayPal and Skrill, [contact us](/contactus) for details.
 ## InPlay Events
 
 ```shell
-curl "https://api.betsapi.com/events/inplay?sport_id=1"
+curl "https://api.betsapi.com/v1/events/inplay?sport_id=1"
   -H "X-API-TOKEN: YOUR-TOKEN"
 ```
 
 ### HTTP Request
 
-`GET https://api.betsapi.com/events/inplay`
+`GET https://api.betsapi.com/v1/events/inplay`
 
 ### Query Parameters
 
@@ -105,13 +105,13 @@ page | No | [Pager reference](#pager)
 ## Upcoming Events
 
 ```shell
-curl "https://api.betsapi.com/events/upcoming?sport_id=1"
+curl "https://api.betsapi.com/v1/events/upcoming?sport_id=1"
   -H "X-API-TOKEN: YOUR-TOKEN"
 ```
 
 ### HTTP Request
 
-`GET https://api.betsapi.com/events/upcoming`
+`GET https://api.betsapi.com/v1/events/upcoming`
 
 ### Query Parameters
 
@@ -129,13 +129,13 @@ page | No | [Pager reference](#pager)
 ## Ended Events
 
 ```shell
-curl "https://api.betsapi.com/events/ended?sport_id=1"
+curl "https://api.betsapi.com/v1/events/ended?sport_id=1"
   -H "X-API-TOKEN: YOUR-TOKEN"
 ```
 
 ### HTTP Request
 
-`GET https://api.betsapi.com/events/ended`
+`GET https://api.betsapi.com/v1/events/ended`
 
 ### Query Parameters
 
