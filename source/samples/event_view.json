@@ -203,12 +203,10 @@
             ],
             "extra": {
                 "away_manager": {
-                    "id": "862532",
                     "name": "Masatada Ishii",
                     "cc": "jp"
                 },
                 "home_manager": {
-                    "id": "146703",
                     "name": "Shinji Kobayashi",
                     "cc": "jp"
                 },
