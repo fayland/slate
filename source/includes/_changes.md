@@ -1,6 +1,9 @@
 # Changes
 
-### 2017-03-19
+### 2017-03-18
+  * add extra in /event/view with referee/manager/postion/weather/pitch/round/stadium
+
+### 2017-03-17
   * rewrite doc page with [slate](https://github.com/lord/slate)
   * new BWin API
 
