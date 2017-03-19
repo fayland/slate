@@ -334,27 +334,6 @@ curl "https://api.betsapi.com/v1/bwin/inplay?token=YOUR_TOKEN"
 
 [bwin_inplay.json](samples/bwin_inplay.json)
 
-## BWin InPlay Odds
-
-```shell
-curl "https://api.betsapi.com/v1/bwin/inplay/odds?token=YOUR_TOKEN\
-&event_id=60504279"
-```
-
-### HTTP Request
-
-`GET https://api.betsapi.com/v1/bwin/inplay/odds`
-
-### URL Parameters
-
-Parameter | Required? | Description
---------- | ------- | -----------
-event_id | Yes | Event ID you get from /bwin/inplay
-
-### HTTP Response
-
-[bwin_inplay_odds.json](samples/bwin_inplay_odds.json)
-
 ## BWin Prematch Odds
 
 ```shell
@@ -375,3 +354,24 @@ sport_id | No | BWin sport_id
 ### HTTP Response
 
 [bwin_prematch.json](samples/bwin_prematch.json)
+
+## BWin Event
+
+```shell
+curl "https://api.betsapi.com/v1/bwin/event?token=YOUR_TOKEN\
+&event_id=60504279"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/bwin/event`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+event_id | Yes | Event ID you get from /bwin/inplay or prematch
+
+### HTTP Response
+
+[bwin_event.json](samples/bwin_event.json)
