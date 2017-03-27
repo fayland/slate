@@ -270,7 +270,7 @@ raw | No | raw Bet365 body without parsing
 
 [bet365_inplay.json](samples/bet365_inplay.json)
 
-## Bet365 Event
+## Bet365 Inplay Event
 
 ```shell
 curl "https://api.betsapi.com/v1/bet365/event?token=YOUR_TOKEN\
@@ -313,6 +313,29 @@ raw | No | raw Bet365 body without parsing
 ### HTTP Response
 
 [bet365_event.json](samples/bet365_prematch_odds.json)
+
+## Bet365 Result
+
+```shell
+curl "https://api.betsapi.com/v1/bet365/result?token=YOUR_TOKEN\
+&event_id=63543522"
+```
+
+It is useful when you have FI from Bet365 XML Feed and want to know the results.
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/bet365/result`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+event_id | Yes | Event ID (FI) from Bet365 Inplay
+
+### HTTP Response
+
+[bet365_result.json](samples/bet365_result.json)
 
 # BWin API
 
