@@ -1,5 +1,8 @@
 # Changes
 
+### 2017-03-27
+  * /bet365/result API for Bet365 Result
+
 ### 2017-03-18
   * add extra in /event/view with referee/manager/postion/weather/pitch/round/stadium
 
