@@ -1,0 +1,691 @@
+{
+    "success": 1,
+    "results": {
+        "Bet365": {
+            "start": {
+                "1_1": {
+                    "id": "4865466",
+                    "race_id": "63382513",
+                    "home_od": "2.100",
+                    "draw_od": "3.200",
+                    "away_od": "3.100",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490345713"
+                },
+                "1_2": {
+                    "id": "3977227",
+                    "race_id": "63382513",
+                    "home_od": "1.775",
+                    "handicap": "0.0,-0.5",
+                    "away_od": "2.025",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490379473"
+                },
+                "1_3": {
+                    "id": "7402789",
+                    "race_id": "63382513",
+                    "over_od": "2.000",
+                    "handicap": "2.0,2.5",
+                    "under_od": "1.800",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490379473"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "4982799",
+                    "race_id": "63382513",
+                    "home_od": "1.007",
+                    "draw_od": "0",
+                    "away_od": "0",
+                    "ss": "2-1",
+                    "time_str": "92",
+                    "add_time": "1490552349"
+                },
+                "1_2": {
+                    "id": "4061370",
+                    "race_id": "63382513",
+                    "home_od": "1.650",
+                    "handicap": "0.0",
+                    "away_od": "2.200",
+                    "ss": "2-1",
+                    "time_str": "88",
+                    "add_time": "1490552112"
+                },
+                "1_3": {
+                    "id": "7578253",
+                    "race_id": "63382513",
+                    "over_od": "7.800",
+                    "handicap": "3.5",
+                    "under_od": "1.090",
+                    "ss": "2-1",
+                    "time_str": "90",
+                    "add_time": "1490552204"
+                }
+            }
+        },
+        "10Bet": {
+            "start": {
+                "1_1": {
+                    "id": "3550589",
+                    "race_id": "6969146",
+                    "home_od": "2.070",
+                    "draw_od": "3.130",
+                    "away_od": "3.110",
+                    "ss": null,
+                    "passed_secs": "0",
+                    "add_time": "1490337101"
+                },
+                "1_2": {
+                    "id": "3542024",
+                    "race_id": "6969146",
+                    "home_od": "1.769",
+                    "handicap": "-0.25",
+                    "away_od": "1.971",
+                    "ss": null,
+                    "passed_secs": "0",
+                    "add_time": "1490346331"
+                },
+                "1_3": {
+                    "id": "5107282",
+                    "race_id": "6969146",
+                    "over_od": "1.855",
+                    "handicap": "2.25",
+                    "under_od": "1.833",
+                    "ss": null,
+                    "passed_secs": "0",
+                    "add_time": "1490346331"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "3679272",
+                    "race_id": "6969146",
+                    "home_od": "1.005",
+                    "draw_od": "11.930",
+                    "away_od": "31.070",
+                    "ss": "2:1",
+                    "passed_secs": "5583",
+                    "add_time": "1490552381"
+                },
+                "1_2": {
+                    "id": "3647718",
+                    "race_id": "6969146",
+                    "home_od": "1.667",
+                    "handicap": "0",
+                    "away_od": "2.110",
+                    "ss": "2:1",
+                    "passed_secs": "5497",
+                    "add_time": "1490552295"
+                },
+                "1_3": {
+                    "id": "5271939",
+                    "race_id": "6969146",
+                    "over_od": "4.850",
+                    "handicap": "3.5",
+                    "under_od": "1.080",
+                    "ss": "2:1",
+                    "passed_secs": "5497",
+                    "add_time": "1490552295"
+                }
+            }
+        },
+        "Ladbrokes": {
+            "start": {
+                "1_1": {
+                    "id": "1592111",
+                    "race_id": "223492905",
+                    "home_od": "2.050",
+                    "draw_od": "3.250",
+                    "away_od": "3.600",
+                    "ss": null,
+                    "passed_secs": "0",
+                    "add_time": "1490372799"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "1628881",
+                    "race_id": "223492905",
+                    "home_od": "1.025",
+                    "draw_od": "15.000",
+                    "away_od": "81.000",
+                    "ss": "2:1",
+                    "passed_secs": "5460",
+                    "add_time": "1490552218"
+                }
+            }
+        },
+        "YSB88": {
+            "start": {
+                "1_2": {
+                    "id": "134777",
+                    "event_id": "4096862",
+                    "home_od": "1.81",
+                    "handicap": "-0.5",
+                    "away_od": "2.1",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490537101"
+                },
+                "1_3": {
+                    "id": "133718",
+                    "event_id": "4096862",
+                    "over_od": "2.03",
+                    "handicap": "2, 2.5",
+                    "under_od": "1.81",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490537271"
+                },
+                "1_1": {
+                    "id": "135533",
+                    "event_id": "4096862",
+                    "home_od": "1.84",
+                    "draw_od": "3.2",
+                    "away_od": "4",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490537187"
+                }
+            },
+            "end": {
+                "1_2": {
+                    "id": "134777",
+                    "event_id": "4096862",
+                    "home_od": "1.81",
+                    "handicap": "-0.5",
+                    "away_od": "2.1",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490537101"
+                },
+                "1_3": {
+                    "id": "133891",
+                    "event_id": "4096862",
+                    "over_od": "1.81",
+                    "handicap": "2, 2.5",
+                    "under_od": "2.07",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490544857"
+                },
+                "1_1": {
+                    "id": "135785",
+                    "event_id": "4096862",
+                    "home_od": "1.8",
+                    "draw_od": "3.3",
+                    "away_od": "4.1",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490544796"
+                }
+            }
+        },
+        "WilliamHill": {
+            "start": {
+                "1_3": {
+                    "id": "30162",
+                    "race_id": "10794198",
+                    "over_od": "2.15",
+                    "handicap": "2.5",
+                    "under_od": "1.65",
+                    "ss": null,
+                    "passed_secs": "0",
+                    "add_time": "1490350433"
+                },
+                "1_1": {
+                    "id": "67218",
+                    "race_id": "10794198",
+                    "home_od": "1.85",
+                    "draw_od": "3.10",
+                    "away_od": "4.20",
+                    "ss": null,
+                    "passed_secs": "0",
+                    "add_time": "1490350439"
+                }
+            },
+            "end": {
+                "1_3": {
+                    "id": "30574",
+                    "race_id": "10794198",
+                    "over_od": "2.38",
+                    "handicap": "2.5",
+                    "under_od": "1.53",
+                    "ss": null,
+                    "passed_secs": "0",
+                    "add_time": "1490545434"
+                },
+                "1_1": {
+                    "id": "68533",
+                    "race_id": "10794198",
+                    "home_od": "1.80",
+                    "draw_od": "3.25",
+                    "away_od": "4.20",
+                    "ss": null,
+                    "passed_secs": "0",
+                    "add_time": "1490545024"
+                }
+            }
+        },
+        "PlanetWin365": {
+            "start": {
+                "1_1": {
+                    "id": "2947065",
+                    "race_id": "383777",
+                    "home_od": "1.75",
+                    "draw_od": "3.25",
+                    "away_od": "4.52",
+                    "ss": "0-0",
+                    "passed_secs": "0",
+                    "add_time": "1490544960"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "2950697",
+                    "race_id": "383777",
+                    "home_od": "1.00",
+                    "draw_od": "13.61",
+                    "away_od": "150.00",
+                    "ss": "2-1",
+                    "passed_secs": "5340",
+                    "add_time": "1490552148"
+                }
+            }
+        },
+        "188Bet": {
+            "start": {
+                "1_1": {
+                    "id": "619455",
+                    "event_id": "1954315",
+                    "home_od": "1.80",
+                    "draw_od": "3.80",
+                    "away_od": "3.30",
+                    "ss": "0-0",
+                    "time_str": "01:40",
+                    "add_time": "1490545960"
+                },
+                "1_2": {
+                    "id": "867538",
+                    "event_id": "1954315",
+                    "home_od": "1.81",
+                    "handicap": "-0.5",
+                    "away_od": "2.03",
+                    "ss": "0-0",
+                    "time_str": "01:40",
+                    "add_time": "1490545960"
+                },
+                "1_3": {
+                    "id": "1744365",
+                    "event_id": "1954315",
+                    "over_od": "1.91",
+                    "handicap": "8.5",
+                    "under_od": "1.91",
+                    "ss": "0-0",
+                    "time_str": "01:40",
+                    "add_time": "1490545960"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "620601",
+                    "event_id": "1954315",
+                    "home_od": "1.03",
+                    "draw_od": "120",
+                    "away_od": "7.00",
+                    "ss": "2-1",
+                    "time_str": "89:14",
+                    "add_time": "1490552154"
+                },
+                "1_2": {
+                    "id": "868941",
+                    "event_id": "1954315",
+                    "home_od": "1.63",
+                    "handicap": "0",
+                    "away_od": "2.26",
+                    "ss": "2-1",
+                    "time_str": "82:58",
+                    "add_time": "1490551779"
+                },
+                "1_3": {
+                    "id": "1747061",
+                    "event_id": "1954315",
+                    "over_od": "5.16",
+                    "handicap": "3.5",
+                    "under_od": "1.06",
+                    "ss": "2-1",
+                    "time_str": "91:11",
+                    "add_time": "1490552266"
+                }
+            }
+        },
+        "UniBet": {
+            "start": {
+                "1_1": {
+                    "id": "1036991",
+                    "event_id": "1003836225",
+                    "home_od": "1.78",
+                    "draw_od": "3.3",
+                    "away_od": "4.5",
+                    "ss": "0-0",
+                    "time_str": "00:00",
+                    "add_time": "1490545776"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "1038759",
+                    "event_id": "1003836225",
+                    "home_od": "1.01",
+                    "draw_od": "17",
+                    "away_od": "326",
+                    "ss": "2-1",
+                    "time_str": "90:00",
+                    "add_time": "1490552191"
+                }
+            }
+        },
+        "BWin": {
+            "start": {
+                "1_1": {
+                    "id": "877554",
+                    "event_id": "5946670",
+                    "home_od": "1.8",
+                    "draw_od": "3.2",
+                    "away_od": "4.33",
+                    "ss": "0-0",
+                    "time_str": "-53",
+                    "add_time": "1490541936"
+                },
+                "1_3": {
+                    "id": "618498",
+                    "event_id": "5946670",
+                    "over_od": "2.2",
+                    "handicap": "2.5",
+                    "under_od": "1.6",
+                    "ss": "0-0",
+                    "time_str": "-51",
+                    "add_time": "1490542055"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "882034",
+                    "event_id": "5946670",
+                    "home_od": "1.01",
+                    "draw_od": "10",
+                    "away_od": "101",
+                    "ss": "2-1",
+                    "time_str": "90",
+                    "add_time": "1490552191"
+                },
+                "1_3": {
+                    "id": "622999",
+                    "event_id": "5946670",
+                    "over_od": "2.4",
+                    "handicap": "3.5",
+                    "under_od": "1.5",
+                    "ss": "2-1",
+                    "time_str": "78",
+                    "add_time": "1490551484"
+                }
+            }
+        },
+        "BetFair": {
+            "start": {
+                "1_1": {
+                    "id": "759122",
+                    "event_id": "28160453",
+                    "home_od": "1.8",
+                    "draw_od": "3.25",
+                    "away_od": "4.5",
+                    "ss": "-",
+                    "time_str": "",
+                    "add_time": "1490540425"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "769341",
+                    "event_id": "28160453",
+                    "home_od": "1.03",
+                    "draw_od": "15.0",
+                    "away_od": "101.0",
+                    "ss": "2-1",
+                    "time_str": "88",
+                    "add_time": "1490552132"
+                }
+            }
+        },
+        "BetFred": {
+            "start": {
+                "1_1": {
+                    "id": "39379",
+                    "event_id": "7246927",
+                    "home_od": "2.05",
+                    "draw_od": "3.10",
+                    "away_od": "3.40",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490331897"
+                },
+                "1_2": null,
+                "1_3": {
+                    "id": "10081",
+                    "event_id": "7246927",
+                    "over_od": "1.91",
+                    "handicap": "2.5",
+                    "under_od": "1.80",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490331897"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "46472",
+                    "event_id": "7246927",
+                    "home_od": "1.80",
+                    "draw_od": "3.30",
+                    "away_od": "4.00",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490550851"
+                },
+                "1_2": null,
+                "1_3": {
+                    "id": "11477",
+                    "event_id": "7246927",
+                    "over_od": "2.00",
+                    "handicap": "2.5",
+                    "under_od": "1.73",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490550851"
+                }
+            }
+        },
+        "CloudBet": {
+            "start": {
+                "1_1": {
+                    "id": "234684",
+                    "event_id": "457345",
+                    "home_od": "1.74",
+                    "draw_od": "3.1",
+                    "away_od": "4.27",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490542305"
+                },
+                "1_2": {
+                    "id": "3883",
+                    "event_id": "457345",
+                    "home_od": "1.81",
+                    "handicap": "-0.5",
+                    "away_od": "1.97",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490542305"
+                },
+                "1_3": {
+                    "id": "3530",
+                    "event_id": "457345",
+                    "over_od": "1.76",
+                    "handicap": "2",
+                    "under_od": "2.029",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490542305"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "239634",
+                    "event_id": "457345",
+                    "home_od": "0",
+                    "draw_od": "9.39",
+                    "away_od": "50",
+                    "ss": "2-1",
+                    "time_str": "89:21",
+                    "add_time": "1490552154"
+                },
+                "1_2": {
+                    "id": "3883",
+                    "event_id": "457345",
+                    "home_od": "1.81",
+                    "handicap": "-0.5",
+                    "away_od": "1.97",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490542305"
+                },
+                "1_3": {
+                    "id": "3535",
+                    "event_id": "457345",
+                    "over_od": "2",
+                    "handicap": "2.25",
+                    "under_od": "1.79",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490544129"
+                }
+            }
+        },
+        "Betsson": {
+            "start": {
+                "1_1": {
+                    "id": "86072",
+                    "event_id": "2075976",
+                    "home_od": "1.8333",
+                    "draw_od": "3.2",
+                    "away_od": "4",
+                    "ss": "0-0",
+                    "time_str": "8",
+                    "add_time": "1490546247"
+                },
+                "1_3": {
+                    "id": "144658",
+                    "event_id": "2075976",
+                    "over_od": "2.19",
+                    "handicap": "2.5",
+                    "under_od": "1.56",
+                    "ss": "0-0",
+                    "time_str": "8",
+                    "add_time": "1490546247"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "88823",
+                    "event_id": "2075976",
+                    "home_od": "1.05",
+                    "draw_od": "11",
+                    "away_od": "101",
+                    "ss": "2-1",
+                    "time_str": "88",
+                    "add_time": "1490552068"
+                },
+                "1_3": {
+                    "id": "148853",
+                    "event_id": "2075976",
+                    "over_od": "3.87",
+                    "handicap": "3.5",
+                    "under_od": "1.19",
+                    "ss": "2-1",
+                    "time_str": "86",
+                    "add_time": "1490551988"
+                }
+            }
+        },
+        "Betdaq": {
+            "start": {
+                "1_1": {
+                    "id": "249",
+                    "event_id": "3762797",
+                    "home_od": "1.84",
+                    "draw_od": "3.30",
+                    "away_od": "3.45",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490349667"
+                },
+                "1_2": {
+                    "id": "358",
+                    "event_id": "3762797",
+                    "home_od": "1.60",
+                    "handicap": "-0\/0.5",
+                    "away_od": "2.22",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490353426"
+                },
+                "1_3": {
+                    "id": "355",
+                    "event_id": "3762797",
+                    "over_od": "1.87",
+                    "handicap": "2\/2.5",
+                    "under_od": "1.89",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490353426"
+                }
+            },
+            "end": {
+                "1_1": {
+                    "id": "4904",
+                    "event_id": "3762797",
+                    "home_od": "2.54",
+                    "draw_od": "2.34",
+                    "away_od": "4.50",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490549527"
+                },
+                "1_2": {
+                    "id": "3590",
+                    "event_id": "3762797",
+                    "home_od": "1.93",
+                    "handicap": "-0\/0.5",
+                    "away_od": "1.77",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490549527"
+                },
+                "1_3": {
+                    "id": "2909",
+                    "event_id": "3762797",
+                    "over_od": "2.02",
+                    "handicap": "2\/2.5",
+                    "under_od": "1.90",
+                    "ss": null,
+                    "time_str": null,
+                    "add_time": "1490545569"
+                }
+            }
+        }
+    }
+}
