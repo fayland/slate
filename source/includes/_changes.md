@@ -1,5 +1,9 @@
 # Changes
 
+### 2017-04-01
+  * add kickoff in /event/odds/summary
+  * more bookmakers (cloudbet, betsson, betdaq, paddypower)
+
 ### 2017-03-27
   * /bet365/result API for Bet365 Result
   * /event/odds/summary for all bookmaker odds
