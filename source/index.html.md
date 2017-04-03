@@ -225,8 +225,12 @@ event_id | Yes | Event ID you get from events/*
 Key| Description
 --------- | -----------
 1_1, 18_1 | 1X2
-1_2, 18_2 | Handicap
+1_2, 18_2 | Asian Handicap
 1_3, 18_3 | O/U
+1_4 | Asian Corners
+1_5 | Asian Handicap (Half)
+1_6 | O/U (Half)
+1_7 | Asian Corners (Half)
 
 ## Event Odds
 
