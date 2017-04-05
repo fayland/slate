@@ -280,7 +280,7 @@ page | No | [Pager reference](#pager)
 ## League Table
 
 <aside class="notice">
-Note few (less than 5%) teams do not have 'id'.
+Note a few of (less than 5%) teams do not have 'id'.
 </aside>
 
 ```shell
