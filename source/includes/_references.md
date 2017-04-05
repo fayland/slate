@@ -29,6 +29,10 @@ PERMISSION_DENIED | You're not allowed, contact Support if it is wrong.
 PARAM_REQUIRED | Required param is missing, check error_detail for details
 PARAM_INVALID | param is invalid, check error_detail for details
 
+## Countries
+
+[countries.json](samples/countries.json)
+
 ## Pager
 
 Whenever you see **pager** in the API response, it means you can go next page by passing page=2 etc. there are 3 elements inside which means:
