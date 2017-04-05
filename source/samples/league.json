@@ -3,258 +3,308 @@
     "pager": {
         "page": 1,
         "per_page": 50,
-        "total": 960
+        "total": 992
     },
     "results": [
         {
             "id": "1",
             "name": "Mexico Liga de Ascenso Apertura",
-            "cc": "mx"
+            "cc": "mx",
+            "has_leaguetable": 0
         },
         {
             "id": "2",
             "name": "Australia New South Wales League 2",
-            "cc": "au"
+            "cc": "au",
+            "has_leaguetable": 0
         },
         {
             "id": "3",
             "name": "Australia Queensland Premier League Women",
-            "cc": "au"
+            "cc": "au",
+            "has_leaguetable": 0
         },
         {
             "id": "4",
             "name": "Australia New South Wales U20 League",
-            "cc": "au"
+            "cc": "au",
+            "has_leaguetable": 0
         },
         {
             "id": "5",
             "name": "Australia WA Premier League Women",
-            "cc": "au"
+            "cc": "au",
+            "has_leaguetable": 0
         },
         {
             "id": "6",
             "name": "Fiji Cup",
-            "cc": "fj"
+            "cc": "fj",
+            "has_leaguetable": 0
         },
         {
             "id": "7",
             "name": "USA USL Pro",
-            "cc": "us"
+            "cc": "us",
+            "has_leaguetable": 1
         },
         {
             "id": "8",
-            "name": "Australia ACT Premier Pathway League",
-            "cc": "au"
+            "name": "Australia - ACT Premier Pathway League",
+            "cc": "au",
+            "has_leaguetable": 1
         },
         {
             "id": "9",
             "name": "Australia NPL Finals",
-            "cc": "au"
+            "cc": "au",
+            "has_leaguetable": 0
         },
         {
             "id": "10",
             "name": "Hong Kong Premier League",
-            "cc": "hk"
+            "cc": "hk",
+            "has_leaguetable": 1
         },
         {
             "id": "11",
             "name": "Australia New South Wales NPL Women",
-            "cc": "au"
+            "cc": "au",
+            "has_leaguetable": 0
         },
         {
             "id": "12",
             "name": "Beach Soccer - 36 mins play",
-            "cc": null
+            "cc": null,
+            "has_leaguetable": 0
         },
         {
             "id": "13",
             "name": "Japan Cup",
-            "cc": "jp"
+            "cc": "jp",
+            "has_leaguetable": 0
         },
         {
             "id": "15",
             "name": "China Division 1",
-            "cc": "cn"
+            "cc": "cn",
+            "has_leaguetable": 1
         },
         {
             "id": "16",
             "name": "Australia Victoria Premier League",
-            "cc": "au"
+            "cc": "au",
+            "has_leaguetable": 1
         },
         {
             "id": "17",
-            "name": "UEFA Womens Champions League",
-            "cc": "eu"
+            "name": "UEFA Champions League Women",
+            "cc": "eu",
+            "has_leaguetable": 1
         },
         {
             "id": "19",
             "name": "Australia Queensland Premier League",
-            "cc": "au"
+            "cc": "au",
+            "has_leaguetable": 1
         },
         {
             "id": "20",
             "name": "Slovakia Youth League",
-            "cc": "sk"
+            "cc": "sk",
+            "has_leaguetable": 1
         },
         {
             "id": "21",
             "name": "Czech Republic 2. Liga",
-            "cc": "cz"
+            "cc": "cz",
+            "has_leaguetable": 1
         },
         {
             "id": "22",
             "name": "Czech Republic 3. Ligy",
-            "cc": "cz"
+            "cc": "cz",
+            "has_leaguetable": 1
         },
         {
             "id": "23",
             "name": "Czech Republic 4. Ligy",
-            "cc": "cz"
+            "cc": "cz",
+            "has_leaguetable": 0
         },
         {
             "id": "24",
             "name": "Czech Republic U21 League",
-            "cc": "cz"
+            "cc": "cz",
+            "has_leaguetable": 1
         },
         {
             "id": "25",
             "name": "Slovakia 3. Liga",
-            "cc": "sk"
+            "cc": "sk",
+            "has_leaguetable": 0
         },
         {
             "id": "26",
             "name": "U19 International",
-            "cc": null
+            "cc": null,
+            "has_leaguetable": 0
         },
         {
             "id": "28",
             "name": "Germany Bundesliga U19",
-            "cc": "de"
+            "cc": "de",
+            "has_leaguetable": 1
         },
         {
             "id": "29",
             "name": "Indonesia Soccer Championship A",
-            "cc": "id"
+            "cc": "id",
+            "has_leaguetable": 1
         },
         {
             "id": "30",
             "name": "France U19 League",
-            "cc": "fr"
+            "cc": "fr",
+            "has_leaguetable": 0
         },
         {
             "id": "31",
             "name": "Poland III Liga",
-            "cc": "pl"
+            "cc": "pl",
+            "has_leaguetable": 0
         },
         {
             "id": "32",
             "name": "Finland Kolmonen",
-            "cc": "fi"
+            "cc": "fi",
+            "has_leaguetable": 0
         },
         {
             "id": "33",
             "name": "Poland Ekstraklasa Women",
-            "cc": "pl"
+            "cc": "pl",
+            "has_leaguetable": 0
         },
         {
             "id": "34",
             "name": "Singapore Prime League",
-            "cc": "sg"
+            "cc": "sg",
+            "has_leaguetable": 0
         },
         {
             "id": "35",
             "name": "Serbia U19 League",
-            "cc": "rs"
+            "cc": "rs",
+            "has_leaguetable": 0
         },
         {
             "id": "36",
             "name": "Thailand Division 2",
-            "cc": "th"
+            "cc": "th",
+            "has_leaguetable": 0
         },
         {
             "id": "37",
             "name": "Vietnam Championship Women",
-            "cc": "vn"
+            "cc": "vn",
+            "has_leaguetable": 0
         },
         {
             "id": "38",
             "name": "Spain Tercera Group 15",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "39",
             "name": "Spain Tercera Group 4",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "40",
             "name": "Spain Tercera Group 17",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "41",
             "name": "Spain Tercera Group 6",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "42",
             "name": "Spain Tercera Group 7",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "43",
             "name": "Germany Oberliga Hamburg",
-            "cc": "de"
+            "cc": "de",
+            "has_leaguetable": 1
         },
         {
             "id": "44",
             "name": "Romania Liga II",
-            "cc": "ro"
+            "cc": "ro",
+            "has_leaguetable": 1
         },
         {
             "id": "45",
             "name": "Spain Tercera Group 10",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "46",
             "name": "Spain Tercera Group 14",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "47",
             "name": "Spain Tercera Group 9",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "48",
             "name": "Vietnam V-League",
-            "cc": "vn"
+            "cc": "vn",
+            "has_leaguetable": 1
         },
         {
             "id": "49",
             "name": "Denmark Superligaen",
-            "cc": "dk"
+            "cc": "dk",
+            "has_leaguetable": 1
         },
         {
             "id": "50",
             "name": "Spain Segunda B Group 2",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 1
         },
         {
             "id": "51",
             "name": "Spain Segunda B Group 3",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "52",
             "name": "Spain Tercera Group 1",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         },
         {
             "id": "53",
             "name": "Spain Tercera Group 16",
-            "cc": "es"
+            "cc": "es",
+            "has_leaguetable": 0
         }
     ]
 }
