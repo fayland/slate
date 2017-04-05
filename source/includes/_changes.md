@@ -1,5 +1,8 @@
 # Changes
 
+### 2017-04-05
+  * add league/table
+
 ### 2017-04-01
   * add kickoff in /event/odds/summary
   * more bookmakers (cloudbet, betsson, betdaq, paddypower)
