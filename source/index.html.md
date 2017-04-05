@@ -296,7 +296,7 @@ curl "https://api.betsapi.com/v1/league/table?token=YOUR_TOKEN\
 
 Parameter | Required? | Description
 --------- | ------- | -----------
-league_id | Yes |
+league_id | Yes | flag 'has_leaguetable' from [League API](#league)
 
 ### HTTP Response
 
