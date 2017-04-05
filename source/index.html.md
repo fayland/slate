@@ -277,6 +277,31 @@ page | No | [Pager reference](#pager)
 
 [league.json](samples/league.json)
 
+## League Table
+
+<aside class="notice">
+Note few (less than 5%) teams do not have 'id'.
+</aside>
+
+```shell
+curl "https://api.betsapi.com/v1/league/table?token=YOUR_TOKEN\
+&league_id=94"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/league/table`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+league_id | Yes |
+
+### HTTP Response
+
+[league_table.json](samples/league_table.json)
+
 # Bet365 API
 
 <aside class="notice">
