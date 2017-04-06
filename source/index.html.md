@@ -75,7 +75,7 @@ Others | $10 per month
 Bet365 API | plus 150$ per month
 BWin API | plus 100$ per month
 
-We support PayPal and Skrill, [contact us](/contactus) for details.
+We support PayPal, Skrill or BTC, [contact us](/contactus) for details.
 
 # Events
 
