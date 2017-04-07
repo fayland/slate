@@ -12,8 +12,8 @@
         },
         "overall": {
             "has_data": 0,
-            "tournaments": {
-                "Premier-League": {
+            "tournaments": [
+                {
                     "name": "Premier League",
                     "rows": [
                         {
@@ -378,12 +378,12 @@
                         }
                     ]
                 }
-            }
+            ]
         },
         "home": {
             "has_data": 0,
-            "tournaments": {
-                "Premier-League": {
+            "tournaments": [
+                {
                     "name": "Premier League",
                     "rows": [
                         {
@@ -748,12 +748,12 @@
                         }
                     ]
                 }
-            }
+            ]
         },
         "away": {
             "has_data": 0,
-            "tournaments": {
-                "Premier-League": {
+            "tournaments": [
+                {
                     "name": "Premier League",
                     "rows": [
                         {
@@ -1118,7 +1118,7 @@
                         }
                     ]
                 }
-            }
+            ]
         }
     }
 }
