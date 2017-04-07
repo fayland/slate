@@ -11,7 +11,6 @@
             "name": "Premier League 16\/17"
         },
         "overall": {
-            "has_data": 0,
             "tournaments": [
                 {
                     "name": "Premier League",
@@ -381,7 +380,6 @@
             ]
         },
         "home": {
-            "has_data": 0,
             "tournaments": [
                 {
                     "name": "Premier League",
@@ -751,7 +749,6 @@
             ]
         },
         "away": {
-            "has_data": 0,
             "tournaments": [
                 {
                     "name": "Premier League",
