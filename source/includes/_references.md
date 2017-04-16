@@ -2,18 +2,20 @@
 
 ## Sport ID
 
-sport_id | Name
----------- | -------
-1 | Soccer
-18 | Basketball
-13 | Tennis
-91 | Volleyball
-78 | Handball
-16 | Baseball
-17 | Ice Hockey
-12 | American Football
-14 | Snooker
-3 | Cricket
+sport_id | Name | sport_id | Name
+---------- | ------- | -------- | -------
+1 | Soccer | 18 | Basketball
+13 | Tennis | 91 | Volleyball
+78 | Handball | 16 | Baseball
+17 | Ice Hockey | 14 | Snooker
+12 | American Football | 3 | Cricket
+83 | Futsal | 15 | Darts
+92 | Table Tennis | 94 | Badminton
+8 | Rugby Union | 19 | Rugby League
+36 | Australian Rules | 66 | Bowls
+9 | Boxing/UFC | 75 | Gaelic Sports
+90 | Floorball | 95 | Beach Volleyball
+110 | Water Polo | 107 | Squash
 
 ## Errors
 
