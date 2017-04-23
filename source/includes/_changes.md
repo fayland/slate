@@ -1,7 +1,7 @@
 # Changes
 
 ### 2017-04-17
-  * add Head2Head in Event History
+  * add Head to Head in Event History
 
 ### 2017-04-05
   * add league/table

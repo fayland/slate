@@ -66,16 +66,7 @@ You'll get **results** if everything moves well, and an [error](#errors) will be
 
 # Pricing
 
-Sport | Price
---------- | -------
-Soccer | $20 per month
-Basketball | $20 per month
-Tennis | $20 per month
-Others | $10 per month
-Bet365 API | plus 150$ per month
-BWin API | plus 100$ per month
-
-We support PayPal, Skrill or BTC, [contact us](/contactus) for details.
+Check [Pricing](/mm/pricing) for details, or [contact us](/contactus).
 
 # Events
 
