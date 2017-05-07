@@ -1,5 +1,9 @@
 # Changes
 
+### 2017-05-07
+  * add /team API
+  * add team_id search in events/(ended|upcoming|inplay)
+
 ### 2017-04-17
   * add Head to Head in Event History
 

@@ -110,6 +110,7 @@ Parameter | Required? | Description
 --------- | ------- | -----------
 sport_id | Yes | [Reference](#sport-id)
 league_id | No | useful when you want only one league
+team_id | No | useful when you want only one team
 day | No | format YYYYMMDD, eg: 20161201
 page | No | [Pager reference](#pager)
 
@@ -134,6 +135,7 @@ Parameter | Required? | Description
 --------- | ------- | -----------
 sport_id | Yes | [Reference](#sport-id)
 league_id | No | useful when you want only one league
+team_id | No | useful when you want only one team
 day | No | format YYYYMMDD, eg: 20161201
 page | No | [Pager reference](#pager)
 
@@ -315,6 +317,28 @@ league_id | Yes | flag 'has_leaguetable' from [League API](#league)
 ### HTTP Response
 
 [league_table.json](samples/league_table.json)
+
+## Team
+
+```shell
+curl "https://api.betsapi.com/v1/team?token=YOUR_TOKEN\
+&sport_id=1"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/team`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+sport_id | Yes | [Reference](#sport-id)
+page | No | [Pager reference](#pager)
+
+### HTTP Response
+
+[team.json](samples/team.json)
 
 # Bet365 API
 
