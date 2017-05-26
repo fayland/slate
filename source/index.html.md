@@ -387,7 +387,9 @@ raw | No | raw Bet365 body without parsing
 
 ### HTTP Response
 
-[bet365_event.json](samples/bet365_event.json)
+[bet365_event.soccer.json](samples/bet365_event.soccer.json)
+[bet365_event.basketball.json](samples/bet365_event.basketball.json)
+[bet365_event.cricket.json](samples/bet365_event.cricket.json)
 
 ## Bet365 Upcoming Events
 
