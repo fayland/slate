@@ -1,6 +1,7 @@
 # Changes
 
 ### 2017-05-27
+  * add cc= in League API
   * add Quarter - Handicap and Quarter - Total (2-Way) for basketball
   * more bookmakers (sbobet, titanbet, betathome, dafabet)
 
