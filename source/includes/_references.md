@@ -26,7 +26,7 @@ NOT_FOUND | 404 Not Found
 METHOD_NOT_ALLOWED | Method is not allowed, only GET is supported.
 UNDER_MAINTENANCE | API is under maintenance, we'll annouce it
 AUTHORIZE_FAILED | Token is not provided or incorrect.
-TOKEN_EXPIRED | Token is expired.
+TOO_MANY_REQUESTS | API rate limit exceeded.
 PERMISSION_DENIED | You're not allowed, contact Support if it is wrong.
 PARAM_REQUIRED | Required param is missing, check error_detail for details
 PARAM_INVALID | param is invalid, check error_detail for details

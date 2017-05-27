@@ -54,9 +54,23 @@ API endpoint started with [https://api.betsapi.com/v1](https://api.betsapi.com/v
 
 ## Rate Limatation
 
+```shell
+X-RateLimit-Limit:3600
+X-RateLimit-Remaining:3599
+X-RateLimit-Reset:1495857600
+```
+
 3600 requests per hour.
 
 You can pay extra 50$ to setup standalone server for unlimited request.
+
+You can check the values in headers:
+
+Header Name | Description
+--------- | -------
+X-RateLimit-Limit | The maximum number of requests that the consumer is permitted to make per hour.
+X-RateLimit-Remaining | The number of requests remaining in the current rate limit window.
+X-RateLimit-Reset | The time at which the current rate limit window resets in UTC epoch seconds.
 
 ## Response
 
