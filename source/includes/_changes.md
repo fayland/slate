@@ -1,5 +1,9 @@
 # Changes
 
+### 2017-05-27
+  * add Quarter - Handicap and Quarter - Total (2-Way) for basketball
+  * more bookmakers (sbobet, titanbet, betathome, dafabet)
+
 ### 2017-05-07
   * add /team API
   * add team_id search in events/(ended|upcoming|inplay)

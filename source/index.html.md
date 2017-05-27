@@ -261,6 +261,8 @@ Key| Description
 1_5 | Asian Handicap (Half)
 1_6 | O/U (Half)
 1_7 | Asian Corners (Half)
+18_8 | Quarter - Handicap
+18_9 | Quarter - Total (2-Way)
 
 ## Event Odds
 
