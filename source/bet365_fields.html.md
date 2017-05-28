@@ -6,7 +6,7 @@ toc_footers:
   - <a href='/'>BetsAPI.com</a>
   - <a href='/contactus'>Contact Us</a>
 
-search: true
+search: false
 ---
 
 # Fields

@@ -21,7 +21,9 @@ search: true
 
 Bets API is a RESTful service for data on all sports. It is a **PAID** service with low price (started with $10 per month).
 
-Please note that in order to access Bets API you must [contact us](/contactus).
+Note that in order to access Bets API you must purchase [related packages](/mm/pricing).
+
+Please [contact us](/contactus) if you have any problem.
 
 ## Authentication
 
@@ -42,7 +44,7 @@ curl "api_endpoint_here?token=YOUR-TOKEN"
 
 `X-API-TOKEN: YOUR-TOKEN`
 
-You will get a **token** from our support. you can either pass it in header **X-API-TOKEN** or pass as token= in GET query.
+You will get a **token** from our support or [Orders](/mm/orders) page. you can either pass it in header **X-API-TOKEN** or pass as token= in GET query.
 
 <aside class="notice">
 You must replace <code>YOUR-TOKEN</code> with your personal token.
@@ -80,7 +82,7 @@ You'll get **results** if everything moves well, and an [error](#errors) will be
 
 # Pricing
 
-Check [Pricing](/mm/pricing) for details, or [contact us](/contactus).
+Check [Pricing](/mm/pricing) for details, or [contact us](/contactus) if you have custom requirements.
 
 # Events
 
