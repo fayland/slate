@@ -5,7 +5,7 @@ language_tabs:
   - shell
 
 toc_footers:
-  - <a href='/'>Back Home</a>
+  - <a href='/'>BetsAPI.com</a>
   - <a href='/contactus'>Contact Us</a>
 
 includes:
@@ -383,6 +383,8 @@ raw | No | raw Bet365 body without parsing
 
 [bet365_inplay.json](samples/bet365_inplay.json)
 
+[Fields Explanation](bet365_fields.html)
+
 ## Bet365 Inplay Event
 
 ```shell
@@ -406,6 +408,8 @@ raw | No | raw Bet365 body without parsing
 [bet365_event.soccer.json](samples/bet365_event.soccer.json)
 [bet365_event.basketball.json](samples/bet365_event.basketball.json)
 [bet365_event.cricket.json](samples/bet365_event.cricket.json)
+
+[Fields Explanation](bet365_fields.html)
 
 ## Bet365 Upcoming Events
 
