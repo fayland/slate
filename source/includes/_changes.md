@@ -1,5 +1,8 @@
 # Changes
 
+### 2017-05-30
+  * add param cc= search in events/(ended|upcoming|inplay)
+
 ### 2017-05-27
   * add cc= in League API
   * add Quarter - Handicap and Quarter - Total (2-Way) for basketball
