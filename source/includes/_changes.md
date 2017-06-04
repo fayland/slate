@@ -1,5 +1,8 @@
 # Changes
 
+### 2017-06-04
+  * support team_id and day in /events/search
+
 ### 2017-05-30
   * add param cc= search in events/(ended|upcoming|inplay)
 

@@ -179,9 +179,9 @@ Search for event with home/away name plus date
 Parameter | Required? | Description
 --------- | ------- | -----------
 sport_id | Yes | [Reference](#sport_id)
-home | Yes | home team name
-away | Yes | away team name
-time | Yes | UTC time epoch (Limited to 90 days)
+home | Yes | home team ID or name
+away | Yes | away team ID or name
+time | Yes | either UTC time epoch (Limited to 90 days) or day YYYYMMDD
 
 ### HTTP Response
 
