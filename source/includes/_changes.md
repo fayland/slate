@@ -1,5 +1,8 @@
 # Changes
 
+### 2017-06-10
+  * Event Stats Trend API
+
 ### 2017-06-04
   * support team_id and day in /events/search
 
