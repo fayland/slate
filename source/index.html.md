@@ -254,6 +254,31 @@ event_id | Yes | Event ID you get from events/*
 
 [event_odds_summary.json](samples/event_odds_summary.json)
 
+## Event Odds
+
+```shell
+curl "https://api.betsapi.com/v1/event/odds?token=YOUR_TOKEN\
+&event_id=92149"
+```
+
+### HTTP Request
+
+`GET https://api.betsapi.com/v1/event/odds`
+
+### URL Parameters
+
+Parameter | Required? | Description
+--------- | ------- | -----------
+event_id | Yes | Event ID you get from events/*
+source | No | Possible value: bet365, 10bet, ladbrokes, williamhill, betclic, pinnaclesports, planetwin365, ysb88, 188bet, unibet, bwin, betfair, betfred, cloudbet, betsson, betdaq, paddypower, sbobet, titanbet, betathome, dafabet. defaults to bet365.
+since_time | No | Integer. add_time will be >= $since_time in results. Faster to get only updates.
+
+### HTTP Response
+
+[event_odds.json](samples/event_odds.json)
+
+[Odds Markets Reference](#odds-markets)
+
 ## Event Stats Trend
 
 ```shell
@@ -280,43 +305,6 @@ event_id | Yes | Event ID you get from events/*
 ### HTTP Response
 
 [event_stats_trend.json](samples/event_stats_trend.json)
-
-### Reference
-
-Key| Description
---------- | -----------
-1_1, 18_1 | 1X2
-1_2, 18_2 | Asian Handicap
-1_3, 18_3 | O/U
-1_4 | Asian Corners
-1_5 | Asian Handicap (Half)
-1_6 | O/U (Half)
-1_7 | Asian Corners (Half)
-18_8 | Quarter - Handicap
-18_9 | Quarter - Total (2-Way)
-
-## Event Odds
-
-```shell
-curl "https://api.betsapi.com/v1/event/odds?token=YOUR_TOKEN\
-&event_id=92149"
-```
-
-### HTTP Request
-
-`GET https://api.betsapi.com/v1/event/odds`
-
-### URL Parameters
-
-Parameter | Required? | Description
---------- | ------- | -----------
-event_id | Yes | Event ID you get from events/*
-source | No | Possible value: bet365, 10bet, ladbrokes, williamhill, betclic, pinnaclesports, planetwin365, ysb88, 188bet, unibet, bwin, betfair, betfred, cloudbet, betsson, betdaq, paddypower, sbobet, titanbet, betathome, dafabet. defaults to bet365.
-since_time | No | Integer. add_time will be >= $since_time in results. Faster to get only updates.
-
-### HTTP Response
-
-[event_odds.json](samples/event_odds.json)
 
 ## League
 

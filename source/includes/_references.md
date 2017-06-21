@@ -55,3 +55,18 @@ Error Value | Description
 3 | Ended
 4 | Postponed
 5 | Cancelled
+
+## Odds Markets
+
+Error Value | Description
+---------- | -------
+1_1 | 1X2
+1_2 | Asian Handicap
+1_3 | O/U, Goal Line
+1_4 | Asian Corners
+1_5 | 1st Half Asian Handicap
+1_6 | 1st Half Goal Line
+1_7 | 1st Half Asian Corners
+18_1 | Money Line
+18_2 | Spread
+18_3 | Total Points
