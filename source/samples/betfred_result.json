@@ -1,0 +1,176 @@
+{
+    "success": 1,
+    "results": [
+        {
+            "id": "259334",
+            "sport_id": "1",
+            "time": "1498586400",
+            "time_status": "3",
+            "league": {
+                "id": "584",
+                "name": "Norway Toppserien Women",
+                "cc": "no"
+            },
+            "home": {
+                "id": "5869",
+                "name": "Stabaek Women",
+                "image_id": "732",
+                "cc": "no"
+            },
+            "away": {
+                "id": "6817",
+                "name": "Lillestrom SK Women",
+                "image_id": "733",
+                "cc": "no"
+            },
+            "ss": "0-1",
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "1"
+                },
+                "1": {
+                    "home": "0",
+                    "away": "1"
+                }
+            },
+            "stats": {
+                "corners": [
+                    "6",
+                    "8"
+                ],
+                "corner_f": [
+                    "6",
+                    "8"
+                ],
+                "corner_h": [
+                    "3",
+                    "2"
+                ],
+                "goals": [
+                    "0",
+                    "1"
+                ],
+                "penalties": [
+                    "0",
+                    "0"
+                ],
+                "redcards": [
+                    "0",
+                    "0"
+                ],
+                "substitutions": [
+                    "0",
+                    "0"
+                ],
+                "yellowcards": [
+                    "0",
+                    "1"
+                ],
+                "attacks": [
+                    "65",
+                    "77"
+                ],
+                "dangerous_attacks": [
+                    "37",
+                    "47"
+                ],
+                "on_target": [
+                    "3",
+                    "7"
+                ],
+                "off_target": [
+                    "6",
+                    "17"
+                ],
+                "possession_rt": [
+                    "45",
+                    "55"
+                ]
+            },
+            "events": [
+                {
+                    "id": "35782825",
+                    "text": "2' - 1st Corner - LSK Women"
+                },
+                {
+                    "id": "35783127",
+                    "text": "22' - 2nd Corner - Stabaek Women"
+                },
+                {
+                    "id": "35783135",
+                    "text": "23' - 3rd Corner - Stabaek Women"
+                },
+                {
+                    "id": "35783174",
+                    "text": "27' - 4th Corner - LSK Women"
+                },
+                {
+                    "id": "35783250",
+                    "text": "33' - 1st Goal -   (LSK Women) -"
+                },
+                {
+                    "id": "35783381",
+                    "text": "43' - 5th Corner - Stabaek Women"
+                },
+                {
+                    "id": "35783428",
+                    "text": "0-1: First Half Score"
+                },
+                {
+                    "id": "35783573",
+                    "text": "48' - 6th Corner - LSK Women"
+                },
+                {
+                    "id": "35783580",
+                    "text": "49' - 7th Corner - LSK Women"
+                },
+                {
+                    "id": "35783641",
+                    "text": "56' - 8th Corner - LSK Women"
+                },
+                {
+                    "id": "35783678",
+                    "text": "61' - 9th Corner - LSK Women"
+                },
+                {
+                    "id": "35783752",
+                    "text": "68' - 10th Corner - Stabaek Women"
+                },
+                {
+                    "id": "35783850",
+                    "text": "79' - 1st Yellow Card -  (LSK Women)"
+                },
+                {
+                    "id": "35783918",
+                    "text": "85' - 11th Corner - LSK Women"
+                },
+                {
+                    "id": "35783950",
+                    "text": "89' - 12th Corner - LSK Women"
+                },
+                {
+                    "id": "35783974",
+                    "text": "90+1' - 13th Corner - Stabaek Women"
+                },
+                {
+                    "id": "35784011",
+                    "text": "90+4' - 14th Corner - Stabaek Women"
+                },
+                {
+                    "id": "35784018",
+                    "text": "0-1: Full Time Score"
+                }
+            ],
+            "extra": {
+                "length": "90",
+                "home_pos": "3",
+                "away_pos": "1",
+                "round": "11",
+                "pitch": "Artificial Turf",
+                "weather": "Good",
+                "stadium": "Nadderud"
+            }
+        }
+    ]
+}
