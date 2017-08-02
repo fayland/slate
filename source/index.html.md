@@ -617,7 +617,7 @@ Useful that you want the results by querying with WilliamHill XML Feed.
 
 Parameter | Required? | Description
 --------- | ------- | -----------
-event_id | Yes | eventid from WilliamHill XML Feeds. (Example: the id 10901582 is from url http://sports.williamhill.com/bet/en-gb/betting/e/10901582/)
+event_id | Yes | event_id from WilliamHill XML Feeds. (Example: the id 10901582 is from url http://sports.williamhill.com/bet/en-gb/betting/e/10901582/)
 
 ### HTTP Response
 
