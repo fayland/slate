@@ -52,7 +52,7 @@ You must replace <code>YOUR-TOKEN</code> with your personal token.
 
 ## API Endpoints
 
-API endpoint started with [https://api.betsapi.com/v1](https://api.betsapi.com/v1), http is also supported but https is recommended.
+API endpoint is started with [https://api.betsapi.com/v1](https://api.betsapi.com/v1)
 
 ## Rate Limatation
 
@@ -622,3 +622,7 @@ event_id | Yes | event_id from WilliamHill XML Feeds. (Example: the id 10901582 
 ### HTTP Response
 
 [williamhill_result.json](samples/williamhill_result.json)
+
+# CSV/Excel
+
+We offer data in CSV/Excel format if you don't know how to program. Please [contact us](/contactus) and send your requirements.
