@@ -1,0 +1,291 @@
+{
+    "success": 1,
+    "results": {
+        "home": {
+            "startinglineup": [
+                {
+                    "player": {
+                        "name": "Deng Xiaofei",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "1",
+                    "pos": "Goalkeeper"
+                },
+                {
+                    "player": {
+                        "name": "Chen Lei",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "23",
+                    "pos": "Right back"
+                },
+                {
+                    "player": {
+                        "name": "Sui Dong Lu",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "21",
+                    "pos": "Central defender"
+                },
+                {
+                    "player": {
+                        "name": "Liu Yu",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "9",
+                    "pos": "Central defender"
+                },
+                {
+                    "player": {
+                        "name": "Huan Liu",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "19",
+                    "pos": "Central defender"
+                },
+                {
+                    "player": {
+                        "name": "Wu Qing",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "11",
+                    "pos": "Left back"
+                },
+                {
+                    "player": {
+                        "name": "Song Nan",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "33",
+                    "pos": "Central midfielder"
+                },
+                {
+                    "player": {
+                        "name": "Jung Woo-Young",
+                        "cc": "kr"
+                    },
+                    "shirtnumber": "5",
+                    "pos": "Central midfielder"
+                },
+                {
+                    "player": {
+                        "name": "Peng Xin Li",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "10",
+                    "pos": "Central midfielder"
+                },
+                {
+                    "player": {
+                        "name": "Alan Kardec",
+                        "cc": "br"
+                    },
+                    "shirtnumber": "27",
+                    "pos": "Forward"
+                },
+                {
+                    "player": {
+                        "name": "Fernandinho",
+                        "cc": "br"
+                    },
+                    "shirtnumber": "32",
+                    "pos": "Forward"
+                }
+            ],
+            "substitutes": [
+                {
+                    "player": {
+                        "name": "Ding Jie",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "8"
+                },
+                {
+                    "player": {
+                        "name": "Xu Yang",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "18"
+                },
+                {
+                    "player": {
+                        "name": "Wang Weicheng",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "16"
+                },
+                {
+                    "player": {
+                        "name": "Cui Yong Zhe",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "22"
+                },
+                {
+                    "player": {
+                        "name": "Sui Weijie",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "17"
+                },
+                {
+                    "player": {
+                        "name": "Mincheng Yuan",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "26"
+                },
+                {
+                    "player": {
+                        "name": "Feng Jing",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "7"
+                }
+            ]
+        },
+        "away": {
+            "startinglineup": [
+                {
+                    "player": {
+                        "name": "Wang Dalei",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "25",
+                    "pos": "Goalkeeper"
+                },
+                {
+                    "player": {
+                        "name": "Zhang Chi",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "13",
+                    "pos": "Right back"
+                },
+                {
+                    "player": {
+                        "name": "Gil",
+                        "cc": "br"
+                    },
+                    "shirtnumber": "4",
+                    "pos": "Central defender"
+                },
+                {
+                    "player": {
+                        "name": "Zhou Haibin",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "16",
+                    "pos": "Central defender"
+                },
+                {
+                    "player": {
+                        "name": "Zheng Zheng",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "5",
+                    "pos": "Left back"
+                },
+                {
+                    "player": {
+                        "name": "Jin Jingdao",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "33",
+                    "pos": "Right winger"
+                },
+                {
+                    "player": {
+                        "name": "Wang Tong",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "6",
+                    "pos": "Central midfielder"
+                },
+                {
+                    "player": {
+                        "name": "Hao Junmin",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "22",
+                    "pos": "Central midfielder"
+                },
+                {
+                    "player": {
+                        "name": "Wu Xinghan",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "17",
+                    "pos": "Left winger"
+                },
+                {
+                    "player": {
+                        "name": "Sheng Cao",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "41",
+                    "pos": "Forward"
+                },
+                {
+                    "player": {
+                        "name": "Graziano Pelle",
+                        "cc": "it"
+                    },
+                    "shirtnumber": "19",
+                    "pos": "Forward"
+                }
+            ],
+            "substitutes": [
+                {
+                    "player": {
+                        "name": "Liu Yang",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "32"
+                },
+                {
+                    "player": {
+                        "name": "Guo Tianyu",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "8"
+                },
+                {
+                    "player": {
+                        "name": "Song Long",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "23"
+                },
+                {
+                    "player": {
+                        "name": "Li Songyi",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "2"
+                },
+                {
+                    "player": {
+                        "name": "Han Rongze",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "20"
+                },
+                {
+                    "player": {
+                        "name": "Liu Binbin",
+                        "cc": "cn"
+                    },
+                    "shirtnumber": "21"
+                },
+                {
+                    "player": {
+                        "name": "Papiss Demba Cisse",
+                        "cc": "sn"
+                    },
+                    "shirtnumber": "18"
+                }
+            ]
+        }
+    }
+}

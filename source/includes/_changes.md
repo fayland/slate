@@ -1,5 +1,8 @@
 # Changes
 
+### 2017-08-09
+  * Event Lineup API
+
 ### 2017-06-10
   * Event Stats Trend API
 
