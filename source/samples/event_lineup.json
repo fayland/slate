@@ -5,6 +5,7 @@
             "startinglineup": [
                 {
                     "player": {
+                        "id": "560818",
                         "name": "Deng Xiaofei",
                         "cc": "cn"
                     },
@@ -13,6 +14,7 @@
                 },
                 {
                     "player": {
+                        "id": "54699",
                         "name": "Chen Lei",
                         "cc": "cn"
                     },
@@ -21,6 +23,7 @@
                 },
                 {
                     "player": {
+                        "id": "844109",
                         "name": "Sui Dong Lu",
                         "cc": "cn"
                     },
@@ -29,6 +32,7 @@
                 },
                 {
                     "player": {
+                        "id": "555862",
                         "name": "Liu Yu",
                         "cc": "cn"
                     },
@@ -37,6 +41,7 @@
                 },
                 {
                     "player": {
+                        "id": "993843",
                         "name": "Huan Liu",
                         "cc": "cn"
                     },
@@ -45,6 +50,7 @@
                 },
                 {
                     "player": {
+                        "id": "844111",
                         "name": "Wu Qing",
                         "cc": "cn"
                     },
@@ -53,6 +59,7 @@
                 },
                 {
                     "player": {
+                        "id": "1109003",
                         "name": "Song Nan",
                         "cc": "cn"
                     },
@@ -61,6 +68,7 @@
                 },
                 {
                     "player": {
+                        "id": "147128",
                         "name": "Jung Woo-Young",
                         "cc": "kr"
                     },
@@ -69,6 +77,7 @@
                 },
                 {
                     "player": {
+                        "id": "223236",
                         "name": "Peng Xin Li",
                         "cc": "cn"
                     },
@@ -77,6 +86,7 @@
                 },
                 {
                     "player": {
+                        "id": "39656",
                         "name": "Alan Kardec",
                         "cc": "br"
                     },
@@ -85,6 +95,7 @@
                 },
                 {
                     "player": {
+                        "id": "254705",
                         "name": "Fernandinho",
                         "cc": "br"
                     },
@@ -95,6 +106,7 @@
             "substitutes": [
                 {
                     "player": {
+                        "id": "560770",
                         "name": "Ding Jie",
                         "cc": "cn"
                     },
@@ -102,6 +114,7 @@
                 },
                 {
                     "player": {
+                        "id": "560930",
                         "name": "Xu Yang",
                         "cc": "cn"
                     },
@@ -109,6 +122,7 @@
                 },
                 {
                     "player": {
+                        "id": "849356",
                         "name": "Wang Weicheng",
                         "cc": "cn"
                     },
@@ -116,6 +130,7 @@
                 },
                 {
                     "player": {
+                        "id": "844105",
                         "name": "Cui Yong Zhe",
                         "cc": "cn"
                     },
@@ -123,6 +138,7 @@
                 },
                 {
                     "player": {
+                        "id": "844113",
                         "name": "Sui Weijie",
                         "cc": "cn"
                     },
@@ -130,6 +146,7 @@
                 },
                 {
                     "player": {
+                        "id": "1107929",
                         "name": "Mincheng Yuan",
                         "cc": "cn"
                     },
@@ -137,6 +154,7 @@
                 },
                 {
                     "player": {
+                        "id": "844115",
                         "name": "Feng Jing",
                         "cc": "cn"
                     },
@@ -148,6 +166,7 @@
             "startinglineup": [
                 {
                     "player": {
+                        "id": "261595",
                         "name": "Wang Dalei",
                         "cc": "cn"
                     },
@@ -156,6 +175,7 @@
                 },
                 {
                     "player": {
+                        "id": "537676",
                         "name": "Zhang Chi",
                         "cc": "cn"
                     },
@@ -164,6 +184,7 @@
                 },
                 {
                     "player": {
+                        "id": "106402",
                         "name": "Gil",
                         "cc": "br"
                     },
@@ -172,6 +193,7 @@
                 },
                 {
                     "player": {
+                        "id": "38578",
                         "name": "Zhou Haibin",
                         "cc": "cn"
                     },
@@ -180,6 +202,7 @@
                 },
                 {
                     "player": {
+                        "id": "196432",
                         "name": "Zheng Zheng",
                         "cc": "cn"
                     },
@@ -188,6 +211,7 @@
                 },
                 {
                     "player": {
+                        "id": "223242",
                         "name": "Jin Jingdao",
                         "cc": "cn"
                     },
@@ -196,6 +220,7 @@
                 },
                 {
                     "player": {
+                        "id": "377828",
                         "name": "Wang Tong",
                         "cc": "cn"
                     },
@@ -204,6 +229,7 @@
                 },
                 {
                     "player": {
+                        "id": "38584",
                         "name": "Hao Junmin",
                         "cc": "cn"
                     },
@@ -212,6 +238,7 @@
                 },
                 {
                     "player": {
+                        "id": "377840",
                         "name": "Wu Xinghan",
                         "cc": "cn"
                     },
@@ -220,6 +247,7 @@
                 },
                 {
                     "player": {
+                        "id": "1144730",
                         "name": "Sheng Cao",
                         "cc": "cn"
                     },
@@ -228,6 +256,7 @@
                 },
                 {
                     "player": {
+                        "id": "11601",
                         "name": "Graziano Pelle",
                         "cc": "it"
                     },
@@ -238,6 +267,7 @@
             "substitutes": [
                 {
                     "player": {
+                        "id": "947928",
                         "name": "Liu Yang",
                         "cc": "cn"
                     },
@@ -245,6 +275,7 @@
                 },
                 {
                     "player": {
+                        "id": "606102",
                         "name": "Guo Tianyu",
                         "cc": "cn"
                     },
@@ -252,6 +283,7 @@
                 },
                 {
                     "player": {
+                        "id": "560916",
                         "name": "Song Long",
                         "cc": "cn"
                     },
@@ -259,6 +291,7 @@
                 },
                 {
                     "player": {
+                        "id": "553006",
                         "name": "Li Songyi",
                         "cc": "cn"
                     },
@@ -266,6 +299,7 @@
                 },
                 {
                     "player": {
+                        "id": "537696",
                         "name": "Han Rongze",
                         "cc": "cn"
                     },
@@ -273,6 +307,7 @@
                 },
                 {
                     "player": {
+                        "id": "377860",
                         "name": "Liu Binbin",
                         "cc": "cn"
                     },
@@ -280,6 +315,7 @@
                 },
                 {
                     "player": {
+                        "id": "8978",
                         "name": "Papiss Demba Cisse",
                         "cc": "sn"
                     },
