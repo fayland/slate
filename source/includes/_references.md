@@ -57,6 +57,7 @@ Error Value | Description
 5 | Cancelled
 6 | Walkover
 7 | Interrupted
+8 | Abandoned
 
 ## Odds Markets
 
