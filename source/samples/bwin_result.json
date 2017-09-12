@@ -1,0 +1,184 @@
+{
+    "success": 1,
+    "results": [
+        {
+            "id": "427923",
+            "sport_id": "1",
+            "time": "1505221200",
+            "time_status": "3",
+            "league": {
+                "id": "823",
+                "name": "U19 Euro Championships Women",
+                "cc": null
+            },
+            "home": {
+                "id": "181545",
+                "name": "Georgia U19 Women",
+                "image_id": "37357",
+                "cc": "ru"
+            },
+            "away": {
+                "id": "9294",
+                "name": "Russia U19 Women",
+                "image_id": "37357",
+                "cc": "ge"
+            },
+            "ss": "0-4",
+            "scores": {
+                "2": {
+                    "home": "0",
+                    "away": "4"
+                },
+                "1": {
+                    "home": "0",
+                    "away": "1"
+                }
+            },
+            "stats": {
+                "attacks": [
+                    "32",
+                    "81"
+                ],
+                "corners": [
+                    "1",
+                    "8"
+                ],
+                "corner_f": [
+                    "1",
+                    "8"
+                ],
+                "corner_h": [
+                    "0",
+                    "5"
+                ],
+                "dangerous_attacks": [
+                    "18",
+                    "68"
+                ],
+                "goals": [
+                    "0",
+                    "4"
+                ],
+                "off_target": [
+                    "1",
+                    "14"
+                ],
+                "on_target": [
+                    "1",
+                    "13"
+                ],
+                "penalties": [
+                    "0",
+                    "1"
+                ],
+                "possession_rt": [
+                    "34",
+                    "66"
+                ],
+                "redcards": [
+                    "0",
+                    "0"
+                ],
+                "substitutions": [
+                    "0",
+                    "0"
+                ],
+                "yellowcards": [
+                    "0",
+                    "0"
+                ]
+            },
+            "events": [
+                {
+                    "id": "37306770",
+                    "text": "5' - 1st Corner - Russia U19 Women"
+                },
+                {
+                    "id": "37307133",
+                    "text": "19' - 2nd Corner - Russia U19 Women"
+                },
+                {
+                    "id": "37307464",
+                    "text": "32' - 3rd Corner - Russia U19 Women"
+                },
+                {
+                    "id": "37307465",
+                    "text": "32' - Race to 3 Corners - Russia U19 Women"
+                },
+                {
+                    "id": "37307497",
+                    "text": "34' - 4th Corner - Russia U19 Women"
+                },
+                {
+                    "id": "37307508",
+                    "text": "34' - 1st Goal -   (Russia U19 Women) -"
+                },
+                {
+                    "id": "37307612",
+                    "text": "38' - 5th Corner - Russia U19 Women"
+                },
+                {
+                    "id": "37307613",
+                    "text": "38' - Race to 5 Corners - Russia U19 Women"
+                },
+                {
+                    "id": "37307886",
+                    "text": "0-1: First Half Score"
+                },
+                {
+                    "id": "37308410",
+                    "text": "49' - 6th Corner - Russia U19 Women"
+                },
+                {
+                    "id": "37308625",
+                    "text": "57' - 7th Corner - Russia U19 Women"
+                },
+                {
+                    "id": "37308626",
+                    "text": "57' - Race to 7 Corners - Russia U19 Women"
+                },
+                {
+                    "id": "37308822",
+                    "text": "63' - 2nd Goal -   (Russia U19 Women) -"
+                },
+                {
+                    "id": "37309135",
+                    "text": "76' - 8th Corner - Georgia U19 Women"
+                },
+                {
+                    "id": "37309215",
+                    "text": "79' - 9th Corner - Russia U19 Women"
+                },
+                {
+                    "id": "37309260",
+                    "text": "81' - 3rd Goal -   (Russia U19 Women) -"
+                },
+                {
+                    "id": "37309574",
+                    "text": "90+2' - 4th Goal -   (Russia U19 Women) - Penalty"
+                },
+                {
+                    "id": "37309621",
+                    "text": "0-4: Full Time Score"
+                }
+            ],
+            "extra": {
+                "away_manager": {
+                    "id": "53834",
+                    "name": "Givi Kvaratskhelia",
+                    "cc": "ge"
+                },
+                "home_manager": {
+                    "id": "91269",
+                    "name": "Aleksandr Shagov",
+                    "cc": "ru"
+                },
+                "length": "90",
+                "pitch": "Good",
+                "weather": "Hot",
+                "round": "1"
+            },
+            "has_lineup": 0
+        }
+    ]
+}
