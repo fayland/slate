@@ -447,11 +447,13 @@ curl "https://api.betsapi.com/v1/bet365/event?token=YOUR_TOKEN\
 Parameter | Required? | Description
 --------- | ------- | -----------
 FI | Yes | FI from Bet365 Inplay
+stats | No | extra stats info (only provided for Soccer and Cricket)
 raw | No | raw Bet365 body without parsing
 
 ### HTTP Response
 
 [bet365_event.soccer.json](samples/bet365_event.soccer.json)
+[bet365_event.soccer.stats.json](samples/bet365_event.soccer.stats.json)
 [bet365_event.basketball.json](samples/bet365_event.basketball.json)
 [bet365_event.cricket.json](samples/bet365_event.cricket.json)
 
