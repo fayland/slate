@@ -8,7 +8,7 @@ Afterwards, pass each **league_id** in [Events](#ended-events) API with pager.
 
 ### How can I get all leagues in Brazil?
 
-use [League](#league) API with cc=br. For example: http://api.betsapi.com/v1/league?token=YOUR-TOKEN&sport_id=1&cc=br
+use [League](#league) API with cc=br. For example: https://api.betsapi.com/v1/league?token=YOUR-TOKEN&sport_id=1&cc=br
 
 ### Do you provide languages other than English?
 
