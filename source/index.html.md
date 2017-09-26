@@ -528,6 +528,8 @@ Parameter | Required? | Description
 --------- | ------- | -----------
 event_id | Yes | Event ID (FI) from Bet365 Inplay
 
+<aside class="notice">you can send multiple event_ids in one request with event_id=1,2,3,4 up to max 10 ids.</aside>
+
 ### HTTP Response
 
 [bet365_result.json](samples/bet365_result.json)
