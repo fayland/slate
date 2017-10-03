@@ -209,6 +209,7 @@ event_id | Yes | Event ID you get from events/*
 ### HTTP Response
 
 [event_view.json](samples/event_view.json)
+[event_view.basketball.json](samples/event_view.basketball.json)
 
 ## Event History
 
